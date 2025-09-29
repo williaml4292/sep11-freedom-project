@@ -1,8 +1,8 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **gDevelop**
 
-## Project: **X**
+## Project: **Ball hitting cups**
 
 ---
 
