@@ -6,7 +6,7 @@
 ---
 
 ### 9/29/25:
-(https://editor.gdevelop.io/ (Must use this or download)
+https://editor.gdevelop.io/ (Must use this or download)
 
 ##### Adding behaviors to objects (player and enemies)
 Right side of screen, click on 3 dots or right click (doesn't work soemtimes)  
