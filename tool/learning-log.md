@@ -3,18 +3,17 @@
 ## Tool: **gDevelop**
 
 ## Project: **Ball hitting cups**
-https://editor.gdevelop.io/ (Must use this or download)
+---
+
+### 9/29/25:
+(https://editor.gdevelop.io/ (Must use this or download)
 
 ##### Adding behaviors to objects (player and enemies)
 Right side of screen, click on 3 dots or right click (doesn't work soemtimes)  
 Behaviors tab > add behaviors  
 Platformer character = add movement (can change all settings on speed/gravity, etc)  
 * Jump height is "Jump Speed"
-* To make a "platform" solid, add the behavior of "platform".
----
-
-### X/X/XX:
-* Text
+* To make a "platform" solid, add the behavior of "platform".)
 
 ### X/X/XX:
 * Text
