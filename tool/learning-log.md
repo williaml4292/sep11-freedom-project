@@ -31,15 +31,15 @@ Platformer character = add movement (can change all settings on speed/gravity, e
    * What to put into "value": `CameraCenterX()/8`
    * Decreasing the number at the end makes it move faster (closer to the player)
 * The Far-ground should move slower than the mid-ground and etc.
-### 9/29/25:
+### x/xx/xx:
 
-### 9/29/25:
+### x/xx/xx:
 
-### 9/29/25:
+### x/xx/xx:
 
-### 9/29/25:
+### x/xx/xx:
 
-### 9/29/25:
+### x/xx/xx:
 
 
 <!--
