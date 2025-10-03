@@ -31,15 +31,18 @@ Platformer character = add movement (can change all settings on speed/gravity, e
    * What to put into "value": `CameraCenterX()/8`
    * Decreasing the number at the end makes it move faster (closer to the player)
 * The Far-ground should move slower than the mid-ground and etc.
-### x/xx/xx:
+### 10/3/25:
+* Top-down movement (behaviors)
+  * Another way to add movement (Not platformer games
+* Pixel-perfect (behaviors)
+  * Changes movement to match the pixels on the screen (for pixel-perfect games)
+### 10/xx/xx:
 
-### x/xx/xx:
+### 10/xx/xx:
 
-### x/xx/xx:
+### 10/xx/xx:
 
-### x/xx/xx:
-
-### x/xx/xx:
+### 10/xx/xx:
 
 
 <!--
