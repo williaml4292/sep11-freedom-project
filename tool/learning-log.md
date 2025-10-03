@@ -9,7 +9,7 @@
 https://editor.gdevelop.io/ (Must use this or download)
 
 ##### Adding behaviors to objects (player and enemies)
-Right side of screen, click on 3 dots or right click (doesn't work soemtimes)
+Right side of screen, click on 3 dots or right click (doesn't work sometimes)
 Behaviors tab > edit behaviors
 Platformer character = add movement (can change all settings on speed/gravity, etc)
 * Jump height is "Jump Speed"
@@ -31,7 +31,15 @@ Platformer character = add movement (can change all settings on speed/gravity, e
    * What to put into "value": `CameraCenterX()/8`
    * Decreasing the number at the end makes it move faster (closer to the player)
 * The Far-ground should move slower than the mid-ground and etc.
+### 9/29/25:
 
+### 9/29/25:
+
+### 9/29/25:
+
+### 9/29/25:
+
+### 9/29/25:
 
 
 <!--
