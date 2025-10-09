@@ -36,7 +36,11 @@ Platformer character = add movement (can change all settings on speed/gravity, e
   * Another way to add movement (Not platformer games
 * Pixel-perfect (behaviors)
   * Changes movement to match the pixels on the screen (for pixel-perfect games)
-### 10/xx/xx:
+### 10/9/25:
+* Joystick controls (mobile):  
+Interface layer (bottom) > add objects (right) > scroll down until Prefabs > select joysticks  > drag it onto the scene > edit behaviors on object(s) you want the joystick to control > add the ‘top down multi-touch controller mapper’ behavior
+* Displaying a health bar using prefabs:  
+Interface > add objects > prefabs > resources bar > choose health bar > drag onto screen levels(events) [top left] > add action > select health bar > scroll down to value > click the blue 123 use health points > select player
 
 ### 10/xx/xx:
 
