@@ -53,7 +53,7 @@ Interface > add objects > prefabs > resources bar > choose health bar > drag ont
 * To actually use the sprites, click on `add objects` at the very top of the menu that pops up.
 * Everything you add is stored in the `objects` array.
 * `sprite.x`
-  * x posititon of sprite (Replace `sprite` with `objects[0]`.
+  * x position of sprite (Replace `sprite` with `objects[0]`.
 
 ### 10/xx/xx:
 
