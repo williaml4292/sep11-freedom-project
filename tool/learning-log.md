@@ -42,8 +42,10 @@ Interface layer (bottom) > add objects (right) > scroll down until Prefabs > sel
 * Displaying a health bar using prefabs:  
 Interface > add objects > prefabs > resources bar > choose health bar > drag onto screen levels(events) [top left] > add action > select health bar > scroll down to value > click the blue 123 use health points > select player
 
-### 10/xx/xx:
-
+### 10/28/25:
+* Created a sprite and made it stand on a platform and changed the length of the platform.
+* Added a simple conditonal to the game that if the sprite was on the platform, the x-position of the object increases by 2.
+  * Doesn't seem to work with gravity and it appears to be on a scale of 0-10.
 ### 10/xx/xx:
 
 ### 10/xx/xx:
