@@ -43,9 +43,18 @@ Interface layer (bottom) > add objects (right) > scroll down until Prefabs > sel
 Interface > add objects > prefabs > resources bar > choose health bar > drag onto screen levels(events) [top left] > add action > select health bar > scroll down to value > click the blue 123 use health points > select player
 
 ### 10/28/25:
+* After logging into my account, my progress on the tutorials was deleted due to not pressing the tiny save button (top left)
 * Created a sprite and made it stand on a platform and changed the length of the platform.
 * Added a simple conditonal to the game that if the sprite was on the platform, the x-position of the object increases by 2.
   * Doesn't seem to work with gravity and it appears to be on a scale of 0-10.
+    * You can make it one-time activation or make it activate multiple times.
+* In the events section, right click one of the boxes and click the javascript option so that you can add javascript to your game.
+* I added a loop so that if the x-position of the sprite is greater than 1250, the x-posititon is reset back to 100.
+* To actually use the sprites, click on `add objects` at the very top of the menu that pops up.
+* Everything you add is stored in the `objects` array.
+* `sprite.x`
+  * x posititon of sprite (Replace `sprite` with `objects[0]`.
+
 ### 10/xx/xx:
 
 ### 10/xx/xx:
