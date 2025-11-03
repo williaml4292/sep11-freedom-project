@@ -55,9 +55,30 @@ Interface > add objects > prefabs > resources bar > choose health bar > drag ont
 * `sprite.x`
   * x position of sprite (Replace `sprite` with `objects[0]`.
 
-### 10/xx/xx:
+### 11/3/25:
+* Instance properties (pencil, top right) 
+ * click the terrain you want to edit
+  * paint brush (paints tiles)
+    * go to terrain and “paint” it over
+      * Double click on the tile (objects area) and click the box so it turns red for the object you just addded.
+* There is special logic for tiles.
+* `Character.CenterX()` (replace character with the name of it
+* `Character.CenterY()`
+  * Basically just states the x and y coordinates of the character on the tilemap; used in logic.
 
-### 10/xx/xx:
+Adding bullets:
+* `Fire bullets` behavior
+* Events
+* Action
+* Character that wants to fire (As scene object)
+* Fire bullets at a angle
+* As parameters, set as:
+* `Player.PointX(“BulletSpawn”)`
+* `Player.PointY(“BulletSpawn”)`
+* Bullet object = what you want it to fire
+* Angle is:` Player.Angle()`
+
+### 11/xx/xx:
 
 
 <!--
