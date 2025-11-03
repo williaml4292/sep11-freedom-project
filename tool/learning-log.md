@@ -78,6 +78,15 @@ Adding bullets:
 * Bullet object = what you want it to fire
 * Angle is:` Player.Angle()`
 
+Adding a timer
+* To add a timer, first add a scene object (select text)
+* Events page
+* Condition is: At the beginning of scene
+* Action is: Start (or reset) a scene timer
+* Line below it in events page:
+* Action (score, text, click the “ABC” blue button and select the timer you just created)
+  * If you want it to round, use the function, `round()` // put `round(` right after `ToString` and the `)` at the end.
+
 ### 11/xx/xx:
 
 
