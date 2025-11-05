@@ -2,7 +2,7 @@
 
 ## Tool: **gDevelop**
 
-## Project: **Ball hitting cups**
+## Project: **Ball (platformer?)**
 ---
 
 ### 9/29/25:
