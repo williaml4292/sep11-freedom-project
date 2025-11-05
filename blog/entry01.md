@@ -14,6 +14,7 @@ So far, I've learned how to:
 * Add **bullets**.
 * Add a **timer**.
 * Use _Javascript_ in the **events** page.
+  
 The home page of my mini-project:  
 ![Home Page](../images/Home-Page.png)
 The events page:  
