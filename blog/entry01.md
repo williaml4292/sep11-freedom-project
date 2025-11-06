@@ -31,7 +31,7 @@ I am currently on the first step of the _Engineering Design Process_, which is t
 ### Skills
 Two skills that I've developed thus far in *SEP 11* are **How to learn** and **How to read**.
 #### How to learn
-Similar to what happened in _SEP 10_, we have to learn about our tool in our free time.  In my case, it was very easy to learn the basics of [gDevelop](https://gdevelop.io/), mainly because there was a _built-in tutorial_ in the editor itself.  As long as we completed all the tutorial lessons, we would learn how to _add_ **objects**, **behaviors**, **backgrounds**, **movement** and much more. However, after all the tutorial lessons are completed, I would have to find videos online teaching me about the **2D phyics engine** _and maybe the 3D one too._ I would also have to find resources about _how to add a power system_ as movement.  
+Similar to what happened in _SEP 10_, we have to learn about our tool in our free time.  In my case, it was very easy to learn the basics of [gDevelop](https://gdevelop.io/), mainly because there was a _built-in tutorial_ in the editor itself.  As long as we completed all the tutorial lessons, we would learn how to _add_ **objects**, **behaviors**, **backgrounds**, **movement** and much more. However, after all the tutorial lessons are completed, I would have to find videos online teaching me about the **2D physics engine** _and maybe the 3D one too._ I would also have to find resources about _how to add a power system_ as movement.  
 My takeaways? 
 * Start from the **basics** to make everything else easier.
 * **Ignore** all _complicated_ stuff until you mastered the basics as they take too long to understand without a comprehensive understanding of everything prior to it. 
@@ -45,3 +45,6 @@ This is significant because it allows me to use that time on _other_ things, not
 [Next](entry02.md)
 
 [Home](../README.md)
+
+
+
