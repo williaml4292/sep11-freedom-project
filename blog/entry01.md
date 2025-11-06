@@ -35,7 +35,11 @@ Similar to what happened in _SEP 10_, we have to learn about our tool in our fre
 My takeaways? 
 * Start from the **basics** to make everything else easier.
 * **Ignore** all _complicated_ stuff until you mastered the basics as they take too long to understand without a comprehensive understanding of everything prior to it. 
-#### 
+#### How to Read
+Back in SEP 10, I read absolutely everything in the [documentation of jekyll](https://jekyllrb.com/).  
+Now, I realized that I wasted a lot of time doing that, as I rarely used anything other than `jekyll b`, `jekyll s`, and `jekyll new`.  
+When learning about [gDevelop](https://gdevelop.io/), I barely even used the [documentation](https://wiki.gdevelop.io/gdevelop5/) and even when I did, I only searched up for _very specific things_ instead of reading through it **all**. I also stopped trying to completely understand everything that the tutorials said and just focused on how to **replicate** everything that happened in the tutorials. This allows me to use what I learned in the tutorials in future projects, even when I _cut down on the time used_ in each tutorial.  
+This is significant because it allows me to use that time on _other_ things, not just the tutorials.
 
 
 [Next](entry02.md)
