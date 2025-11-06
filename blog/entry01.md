@@ -27,7 +27,7 @@ Using [gDevelop](https://gdevelop.io/), I plan to make a *platformer* game where
 * [P5play](https://p5play.org/learn/)
 * [ConvNetJS](https://cs.stanford.edu/people/karpathy/convnetjs/)
 ### EDP
-
+I am currently on the first step of the _Engineering Design Process_, which is to _Define the Problem_. I've already determined what I want to make, so all I have to do is to find out **how** to make it. My next step of the _EDP_ is to _Research the Problem_, which in this case, is to find out how to _make all the components_ necessary for my game.
 ### Skills
 
 ####
