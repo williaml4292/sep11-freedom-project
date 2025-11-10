@@ -88,7 +88,17 @@ Adding a timer
   * If you want it to round, use the function, `round()` // put `round(` right after `ToString` and the `)` at the end.
 
 ### 11/10/25:
+[https://www.youtube.com/watch?v=HzAFMb_q-a4](https://www.youtube.com/watch?v=HzAFMb_q-a4)
+2D Physics tutorial
 
+First step: Give a object the 2D Physics Behavior.  
+Second Step: Go to the events page and search up 2D Physics conditionals.  
+ * Force = Over time.
+ * Impulse = Instant
+Second Step B: The conditionals specifically tagged as "joints" pin 2 objects together and apply certain logic depending on the joints.
+For joints, `Object.PointX("Point")` (and Y)
+Objects need to be on different layers and masks for them to not collide. (Learn this next)
+"Collision mask, in simple terms, is nothing but the area of the sprite, that is in consideration while in a collision, to avoid situations, similar to the one shown below." > Example of a sprite "walking on air" when the platform is a ramp. [https://wiki.gdevelop.io/gdevelop5/objects/sprite/collision-mask/](https://wiki.gdevelop.io/gdevelop5/objects/sprite/collision-mask/)
 ### 11/XX/XX:
 
 ### 
