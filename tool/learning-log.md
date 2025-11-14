@@ -99,7 +99,12 @@ Second Step B: The conditionals specifically tagged as "joints" pin 2 objects to
 For joints, `Object.PointX("Point")` (and Y)
 Objects need to be on different layers and masks for them to not collide. (Learn this next)
 "Collision mask, in simple terms, is nothing but the area of the sprite, that is in consideration while in a collision, to avoid situations, similar to the one shown below." > Example of a sprite "walking on air" when the platform is a ramp. [https://wiki.gdevelop.io/gdevelop5/objects/sprite/collision-mask/](https://wiki.gdevelop.io/gdevelop5/objects/sprite/collision-mask/)
-### 11/XX/XX:
+### 11/14/25:
+Tried making a small game using physics engine.  
+Made it so that if the "Space" key was held down, it would apply a force to the sprite.  
+* For games with physics, the platform should also use the physics engine, but it needs to be set as a static object instead of dynamic, otherwise it would just fall out of the world.
+* I put another dynamic object at the very end of the game so that the sprite just knocked it off the map.
+* When using javascript, you must use the array, as the javascript is local and can't affect global variables outside the array.  
 
 ### 
 
