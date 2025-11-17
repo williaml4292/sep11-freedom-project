@@ -106,8 +106,11 @@ Made it so that if the "Space" key was held down, it would apply a force to the 
 * I put another dynamic object at the very end of the game so that the sprite just knocked it off the map.
 * When using javascript, you must use the array, as the javascript is local and can't affect global variables outside the array.  
 
-### 
-
+### 11/17/25
+To edit the joints of an object, make sure that it's a sprite.  
+Then add a animation (sprite) to the object (default doesn't work).  
+You can edit it from there then add joints.  
+Joints are very important for physics.
 ###
 
 
