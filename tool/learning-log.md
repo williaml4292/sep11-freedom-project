@@ -111,6 +111,17 @@ To edit the joints of an object, make sure that it's a sprite.
 Then add a animation (sprite) to the object (default doesn't work).  
 You can edit it from there then add joints.  
 Joints are very important for physics.
+### 11/18/25
+* Increase a substance's restitution to increase the bounciness.  
+* You can edit both a sprite's collision markers and joints in the properties section.
+  
+However, it's difficult to change the box behind the object(?)
+###
+
+###
+
+###
+
 ###
 
 
