@@ -116,7 +116,12 @@ Joints are very important for physics.
 * You can edit both a sprite's collision markers and joints in the properties section.
   
 However, it's difficult to change the box behind the object(?)
-###
+### 11/19/25
+In my physics game, I tried out different restitutions and added 4 walls around the arena.  
+I also added a object(obstacle) right in the middle of the screen.  
+The character I made bounced around the screen insanely quickly.  
+I anchored the object at (50, 0) with a revolute joint that is added at the beginning of the scene.  
+This makes it so that when the object is sent flying, it goes right back to where the revolute joint is.  
 
 ###
 
