@@ -122,8 +122,8 @@ I also added a object(obstacle) right in the middle of the screen.
 The character I made bounced around the screen insanely quickly.  
 I anchored the object at (50, 0) with a revolute joint that is added at the beginning of the scene.  
 This makes it so that when the object is sent flying, it goes right back to where the revolute joint is.  
-Next step: find a way to make the game (screen) bigger find another tutorial for joints.
-###
+Next step: find a way to make the game (screen) bigger and find another tutorial for joints.
+### 
 
 ###
 
