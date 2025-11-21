@@ -129,8 +129,10 @@ Go to properties and scroll down until you reach resolution.
 There, you can change the height and size of the game.  
 You can also add new scenes there (levels).
 * I added a rope joint to connect my character to a object.
-
+* Made another game, but it uses `impulse` and `keyDown` events to in order to add movement instead of the standard platformer object.
   Next step: Find out how to make a ball stop sinking into the ground.
+
+
 ###
 
 ###
