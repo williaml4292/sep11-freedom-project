@@ -131,10 +131,11 @@ You can also add new scenes there (levels).
 * I added a rope joint to connect my character to a object.
 * Made another game, but it uses `impulse` and `keyDown` events to in order to add movement instead of the standard platformer object.  
   Next step: Find out how to make a ball stop sinking into the ground.
-
-
-###
-
+### 12/1/25
+* Found a way to stop the ball from sinking: change the radius if of the circle in properties.
+* When you change the radius of the sprite, it doesn't affect the preview in collision masks.
+* However, it does affect the actual hitbox of the sprite, so you just have to keep changing the radius until it works.
+* Started making a new project.
 ###
 
 
