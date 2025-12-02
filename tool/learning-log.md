@@ -136,7 +136,10 @@ You can also add new scenes there (levels).
 * When you change the radius of the sprite, it doesn't affect the preview in collision masks.
 * However, it does affect the actual hitbox of the sprite, so you just have to keep changing the radius until it works.
 * Started making a new project.
-###
+### 12/2/25
+* I found out how to add text to a scene and use variables: modify the text with events and don't use variables in the 'inital text'.
+* Made a simple simulation where if the ball `collides` with a object called `Score`, it will change the value of `score` and spawn a new obstacle.
+* Problem: The sprites spawned by collision are all named the same, so if I apply a event to them, they will all get affected.
 
 
 <!--
