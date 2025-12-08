@@ -140,7 +140,8 @@ You can also add new scenes there (levels).
 * I found out how to add text to a scene and use variables: modify the text with events and don't use variables in the 'inital text'.
 * Made a simple simulation where if the ball `collides` with a object called `Score`, it will change the value of `score` and spawn a new obstacle.
 * Problem: The sprites spawned by collision are all named the same, so if I apply a event to them, they will all get affected.
-
+### 12/8/25
+* When you make the animation for the sprite, fill the entire box since that's what the hitbox is scaled off of.
 
 <!--
 * Links you used today (websites, videos, etc)
