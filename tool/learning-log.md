@@ -142,7 +142,12 @@ You can also add new scenes there (levels).
 * Problem: The sprites spawned by collision are all named the same, so if I apply a event to them, they will all get affected.
 ### 12/8/25
 * When you make the animation for the sprite, fill the entire box since that's what the hitbox is scaled off of.
-
+### 12/10/25
+* Started to make a new project (I was using the school account instead of my personal one, so I made a new account.)
+* Used dragable physics behavior + smooth camera.
+* If I fling the sprite (ball) into the air, the camera will slightly trail behind it.
+* Changed the maximum speed the ball can go when dragged.
+* Tried to figure out how to use a revolute joint to lock the position of the ball when held, but for some reason, the joint doesn't get deleted even if I use the `Remove joint` event.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
