@@ -148,6 +148,18 @@ You can also add new scenes there (levels).
 * If I fling the sprite (ball) into the air, the camera will slightly trail behind it.
 * Changed the maximum speed the ball can go when dragged.
 * Tried to figure out how to use a revolute joint to lock the position of the ball when held, but for some reason, the joint doesn't get deleted even if I use the `Remove joint` event.
+### 12/11/25
+[https://www.youtube.com/watch?v=D2k1Lkld6fk](https://www.youtube.com/watch?v=D2k1Lkld6fk)
+* For aiming:
+  * Events section > condition is when mouse is released (trigger once)
+  * > Apply force towards a position > the symbol > distance between two positions (search up distance)
+    * First one is `Player.X()` and `Player.Y()` (the sprite that will have the aiming.)
+    * Second is `MouseX()` and `MouseY()`.
+    * It might be too strong, so divide (/) by a number if that is the case.
+    * The ones afterwards are just `MouseX()` and `MouseY()`
+ * To apply rotation, condition is cursor's x position > (do it also with <) `playerX()` (just search it up)
+   * Action is torque 0.9 (and -0.9)
+ * timestamp is 17.09 in video. (17 minutes, 9 seconds.)
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
