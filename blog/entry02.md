@@ -1,7 +1,13 @@
 # Entry 2
-##### X/X/XX
+##### 12/18/25
 
-Text
+### Content
+
+### EDP
+
+### Skills
+####
+####
 
 [Previous](entry01.md) | [Next](entry03.md)
 
