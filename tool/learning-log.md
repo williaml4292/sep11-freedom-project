@@ -160,6 +160,16 @@ You can also add new scenes there (levels).
  * To apply rotation, condition is cursor's x position > (do it also with <) `playerX()` (just search it up)
    * Action is torque 0.9 (and -0.9)
  * timestamp is 17.09 in video. (17 minutes, 9 seconds.)
+### 1/9/26
+* Watched until 24 minutes in the video.
+
+* For simulating the `Aim`, you need to make a aim object and give it the physics and destroy when outside of screen behaviors.
+* Events:
+  * When mouse button is held, create the `Aim` object at player.x(), player.y()
+  * Apply the same force of the player to `Aim`.
+  * Fine tune the width and height of the `Aim` object (since I am using a circle and not a box, I can't just use what I had for the player, which is what you normally use.
+  * Change the gravity scale of `Aim` to 95.
+  * Change the amount the force is divided/multiplied by until it is correct.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
