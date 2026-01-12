@@ -170,7 +170,7 @@ You can also add new scenes there (levels).
   * Fine tune the width and height of the `Aim` object (since I am using a circle and not a box, I can't just use what I had for the player, which is what you normally use.
   * Change the gravity scale of `Aim` to 95.
   * Change the amount the force is divided/multiplied by until it is correct.
- 1/12/26
+### 1/12/26
 * After some testing, I concluded that I needed a way to completely stop the ball from rotating or moving when I was aiming, since otherwise, the actual movement would desync from the simulated `Aim`.
 * It works properly when the ball is not moving at all or barely moving.
 * Might be included in the rest of the video (haven't watched it yet.)
