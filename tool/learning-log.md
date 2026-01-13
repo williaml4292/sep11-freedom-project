@@ -174,6 +174,8 @@ You can also add new scenes there (levels).
 * After some testing, I concluded that I needed a way to completely stop the ball from rotating or moving when I was aiming, since otherwise, the actual movement would desync from the simulated `Aim`.
 * It works properly when the ball is not moving at all or barely moving.
 * Might be included in the rest of the video (haven't watched it yet.)
+### 1/13/26
+* The scene variable used in the video didn't work, but I used a boolean to stop you from being able to click when the ball is moving at a speed faster than a certain velocity (speed).
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
