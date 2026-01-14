@@ -176,6 +176,8 @@ You can also add new scenes there (levels).
 * Might be included in the rest of the video (haven't watched it yet.)
 ### 1/13/26
 * The scene variable used in the video didn't work, but I used a boolean to stop you from being able to click when the ball is moving at a speed faster than a certain velocity (speed).
+### 1/14/26
+* Added a image of the aiming system: ![img](../images/Aiming-system.png)
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
