@@ -37,9 +37,9 @@ Platformer character = add movement (can change all settings on speed/gravity, e
 * Pixel-perfect (behaviors)
   * Changes movement to match the pixels on the screen (for pixel-perfect games)
 ### 10/9/25:
-* Joystick controls (mobile):  
+* Joystick controls (mobile):
 Interface layer (bottom) > add objects (right) > scroll down until Prefabs > select joysticks  > drag it onto the scene > edit behaviors on object(s) you want the joystick to control > add the ‘top down multi-touch controller mapper’ behavior
-* Displaying a health bar using prefabs:  
+* Displaying a health bar using prefabs:
 Interface > add objects > prefabs > resources bar > choose health bar > drag onto screen levels(events) [top left] > add action > select health bar > scroll down to value > click the blue 123 use health points > select player
 
 ### 10/28/25:
@@ -56,7 +56,7 @@ Interface > add objects > prefabs > resources bar > choose health bar > drag ont
   * x position of sprite (Replace `sprite` with `objects[0]`.
 
 ### 11/3/25:
-* Instance properties (pencil, top right) 
+* Instance properties (pencil, top right)
  * click the terrain you want to edit
   * paint brush (paints tiles)
     * go to terrain and “paint” it over
@@ -91,8 +91,8 @@ Adding a timer
 [https://www.youtube.com/watch?v=HzAFMb_q-a4](https://www.youtube.com/watch?v=HzAFMb_q-a4)
 2D Physics tutorial
 
-First step: Give a object the 2D Physics Behavior.  
-Second Step: Go to the events page and search up 2D Physics conditionals.  
+First step: Give a object the 2D Physics Behavior.
+Second Step: Go to the events page and search up 2D Physics conditionals.
  * Force = Over time.
  * Impulse = Instant
 Second Step B: The conditionals specifically tagged as "joints" pin 2 objects together and apply certain logic depending on the joints.
@@ -100,36 +100,36 @@ For joints, `Object.PointX("Point")` (and Y)
 Objects need to be on different layers and masks for them to not collide. (Learn this next)
 "Collision mask, in simple terms, is nothing but the area of the sprite, that is in consideration while in a collision, to avoid situations, similar to the one shown below." > Example of a sprite "walking on air" when the platform is a ramp. [https://wiki.gdevelop.io/gdevelop5/objects/sprite/collision-mask/](https://wiki.gdevelop.io/gdevelop5/objects/sprite/collision-mask/)
 ### 11/14/25:
-Tried making a small game using physics engine.  
-Made it so that if the "Space" key was held down, it would apply a force to the sprite.  
+Tried making a small game using physics engine.
+Made it so that if the "Space" key was held down, it would apply a force to the sprite.
 * For games with physics, the platform should also use the physics engine, but it needs to be set as a static object instead of dynamic, otherwise it would just fall out of the world.
 * I put another dynamic object at the very end of the game so that the sprite just knocked it off the map.
-* When using javascript, you must use the array, as the javascript is local and can't affect global variables outside the array.  
+* When using javascript, you must use the array, as the javascript is local and can't affect global variables outside the array.
 
 ### 11/17/25
-To edit the joints of an object, make sure that it's a sprite.  
-Then add a animation (sprite) to the object (default doesn't work).  
-You can edit it from there then add joints.  
+To edit the joints of an object, make sure that it's a sprite.
+Then add a animation (sprite) to the object (default doesn't work).
+You can edit it from there then add joints.
 Joints are very important for physics.
 ### 11/18/25
-* Increase a substance's restitution to increase the bounciness.  
+* Increase a substance's restitution to increase the bounciness.
 * You can edit both a sprite's collision markers and joints in the properties section.
-  
+
 However, it's difficult to change the box behind the object(?)
 ### 11/19/25
-In my physics game, I tried out different restitutions and added 4 walls around the arena.  
-I also added a object(obstacle) right in the middle of the screen.  
-The character I made bounced around the screen insanely quickly.  
-I anchored the object at (50, 0) with a revolute joint that is added at the beginning of the scene.  
-This makes it so that when the object is sent flying, it goes right back to where the revolute joint is.  
+In my physics game, I tried out different restitutions and added 4 walls around the arena.
+I also added a object(obstacle) right in the middle of the screen.
+The character I made bounced around the screen insanely quickly.
+I anchored the object at (50, 0) with a revolute joint that is added at the beginning of the scene.
+This makes it so that when the object is sent flying, it goes right back to where the revolute joint is.
 Next step: find a way to make the game (screen) bigger and find another tutorial for joints.
 ### 11/21/25
-To change the screen size, click the 3 dashes at the top left to open the game settings.  
-Go to properties and scroll down until you reach resolution.  
-There, you can change the height and size of the game.  
+To change the screen size, click the 3 dashes at the top left to open the game settings.
+Go to properties and scroll down until you reach resolution.
+There, you can change the height and size of the game.
 You can also add new scenes there (levels).
 * I added a rope joint to connect my character to a object.
-* Made another game, but it uses `impulse` and `keyDown` events to in order to add movement instead of the standard platformer object.  
+* Made another game, but it uses `impulse` and `keyDown` events to in order to add movement instead of the standard platformer object.
   Next step: Find out how to make a ball stop sinking into the ground.
 ### 12/1/25
 * Found a way to stop the ball from sinking: change the radius if of the circle in properties.
@@ -177,7 +177,8 @@ You can also add new scenes there (levels).
 ### 1/13/26
 * The scene variable used in the video didn't work, but I used a boolean to stop you from being able to click when the ball is moving at a speed faster than a certain velocity (speed).
 ### 1/14/26
-* Added a image of the aiming system: ![img](../images/Aiming-system.png)
+* Added a image of the aiming system: ![img](aiming-system.png)
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
