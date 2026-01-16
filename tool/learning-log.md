@@ -181,7 +181,12 @@ You can also add new scenes there (levels).
   
 * Made the maximum speed higher but the `Aim` desyncs when I click somewhere far from the ball.
 * Might have to use multiple conditionals for the `Aim`.
-
+### 1/16/25
+* Found a way to add else statements in the events section of gDevelop.
+  * Similar to media queries
+* You can have a action without a condition so that it would always run.
+* To make an object follow the mouse, set its position equal to the mouse with ^.
+* ![img](else-statements-basically.png)
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
