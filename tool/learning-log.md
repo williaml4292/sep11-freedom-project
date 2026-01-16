@@ -188,8 +188,9 @@ You can also add new scenes there (levels).
     ![img](else-statements-basically.png)
     
 * You can have a action without a condition so that it would always run.
-* To make an object follow the mouse, set its position equal to the mouse with ^.  
-Found a way to fix the ball desyncing when the y position is higher (lower in code) than a certain value.
+* To make an object follow the mouse, set its position equal to the mouse with ^.
+  
+Found a way to fix the ball desyncing when the y position is higher (lower in code) than a certain value.  
 * You need to **substract** / add a value to `MouseY()`.
 <!--
 * Links you used today (websites, videos, etc)
