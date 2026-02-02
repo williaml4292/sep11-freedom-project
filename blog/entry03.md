@@ -3,6 +3,8 @@
 
 ### Content
 Since the past entry, I've been _experimenting_ with the aiming system. So far, I've found a way to mostly stop the **desync** that sometimes occurs whenever I _move my mouse up_ (-Y). Basically, the solution is using a strategy identical to **media queries**.
+
+![mediaQueries](../images/else-statements-basically.png)
 ### EDP
 
 ### Skills
