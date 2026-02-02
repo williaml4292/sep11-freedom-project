@@ -2,9 +2,15 @@
 ##### 2/2/26
 
 ### Content
-Since the past entry, I've been _experimenting_ with the aiming system. So far, I've found a way to mostly stop the **desync** that sometimes occurs whenever I _move my mouse up_ (-Y). Basically, the solution is using a strategy identical to **media queries**.
+Since the past entry, I've been _experimenting_ with the aiming system.  
+So far, I've found a way to mostly stop the **desync** that sometimes occurs whenever I _move my mouse up_ (-Y).  
+Basically, the solution is using a strategy identical to that of **media queries**:
 
 ![mediaQueries](../images/else-statements-basically.png)
+
+By constantly setting different limits based on distance from mouse (if it doesn't work, just set it based off the distance from the y position of the mouse) and making the aim be more biased towards a lower y value (subtracting a value from y), you can constantly update the aiming system to avoid desync.  
+The desync likely occurs due to me using a circular object instead of a box.  
+Therefore, I am unable to use appropriate length and widths to make the mass of `Aim` equal to that of the `ball`.
 ### EDP
 
 ### Skills
