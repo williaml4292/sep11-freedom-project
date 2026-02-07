@@ -11,6 +11,9 @@ Basically, the solution is using a strategy identical to that of **media queries
 By constantly setting **different limits** based on distance from mouse (if it doesn't work, just set it based off the distance from the y position of the mouse) and making the aim be more **biased towards a lower y value** (subtracting a value from y), you can constantly update the aiming system to _avoid_ desync.  
 The desync likely occurs due to me using a **circular** object instead of a **box**.  
 Therefore, I am **unable** to use appropriate length and widths to make the _mass_ of `Aim` **equal** to that of the `ball` and have to resort to using unconventional methods.
+
+After this, I plan on learning about how to use different **scenes** so that I can create some sort of a level system.  
+Basically, if the player reaches the end of a level, the scene would change and they would move onto level 2.
 ### EDP
 
 ### Skills
