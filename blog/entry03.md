@@ -15,7 +15,7 @@ Therefore, I am **unable** to use appropriate length and widths to make the _mas
 After this, I plan on learning about how to use different **scenes** so that I can create some sort of a level system.  
 Basically, if the player reaches the end of a level, the scene would change and they would move onto level 2.
 ### EDP
-
+I am currently still on the second step of the _Engineering Design Process_ as I still have a lot to learn in order to be able to properly make my game. For instance, I still have to learn about how to _create and use different scenes_, using _global variables_, and finally, how to properly incorporate _javascript_ into my game, as currently, the _most_ I can do is manipulate _text_ boxes. After this, I will likely still be on the second step of the _EDP_, at least until we get past **DOM** and into **P5js**.
 ### Skills
 
 
