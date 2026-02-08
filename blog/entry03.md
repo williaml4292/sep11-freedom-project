@@ -2,7 +2,7 @@
 ##### 2/2/26
 
 ### Content
-Since the past entry, I've finished [the tutorial for the aiming system](https://www.youtube.com/watch?v=D2k1Lkld6fk) and experimented with it.  
+Since the last entry, I've finished [the tutorial for the aiming system](https://www.youtube.com/watch?v=D2k1Lkld6fk) and experimented with it.  
 So far, I've found [a way](https://forum.gdevelop.io/t/solved-if-else-event/39747) to mostly stop the **desync** that sometimes occurs whenever I _move my mouse up_ (-Y).  
 Basically, the solution is using a strategy identical to that of **media queries**:
 
@@ -26,3 +26,5 @@ When I first noticed that the telegraphed aim desynced from the `player`, I was 
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
+
+
