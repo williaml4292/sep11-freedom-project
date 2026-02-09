@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: gDevelop
+## Product: Ball game with levels
 
 ---
 
@@ -9,15 +9,22 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Front-end
+  - [ ] Create a textbox stating the level the player is currently on. (deadline: 2/23/26)
+  - [ ] Finish designing the first two scenes (deadline: 3/2/26)
+  - [ ] Make the scenes appear more colorful (deadline: 3/16/26)
+  - [ ] Add tasks to each level that the player has to complete to move on. (deadline: 3/23/26)
 
+- [ ] Back-end
+  - [ ] Adjust the aiming system so that it actually syncs reguardless of the y-position of the mouse. (deadline:3/2/26)
+  - [ ] Learn how to make and use different scenes (deadline: 3/2/26)
+  - [ ] Learn how to properly use javascript in gDevelop. (deadline: 4/1/26)
+  - [ ] Finish MVP (deadline: 4/1/26)
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
-
-
+- [ ] Add more scenes
+- [ ] Adds conditions for the player to 'die'.
+- [ ] Add the background and mid-ground so that it looks more real instead of just being a floating plane in the middle of the sky.
 <!-- EXAMPLE
 
 ## Tool: APIs
@@ -49,7 +56,7 @@
 
 <!-- DO NOT USE THIS YET
 
-#### Peer Feedback 
+#### Peer Feedback
 
 | Name | Glows | Grows |
 | -------- | ------- | ------- |
