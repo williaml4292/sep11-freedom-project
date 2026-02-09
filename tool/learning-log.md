@@ -178,7 +178,20 @@ You can also add new scenes there (levels).
 * The scene variable used in the video didn't work, but I used a boolean to stop you from being able to click when the ball is moving at a speed faster than a certain velocity (speed).
 ### 1/14/26
 * Added a image of the aiming system: ![img](aiming-system.png)
+  
+* Made the maximum speed higher but the `Aim` desyncs when I click somewhere far from the ball.
+* Might have to use multiple conditionals for the `Aim`.
+### 1/16/25
+* Found a way to add `else if` statements in the events section of gDevelop.
+  * Similar to media queries
 
+    ![img](else-statements-basically.png)
+    
+* You can have a action without a condition so that it would always run.
+* To make an object follow the mouse, set its position equal to the mouse with ^.
+  
+Found a way to fix the ball desyncing when the y position is higher (lower in code) than a certain value.  
+* You need to **substract** / add a value to `MouseY()`.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
