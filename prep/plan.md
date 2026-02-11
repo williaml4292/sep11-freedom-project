@@ -12,7 +12,7 @@
 - [ ] Front-end
   - [ ] Create a textbox stating the level the player is currently on. (deadline: 2/23/26)
   - [ ] Finish designing the first two scenes (deadline: 3/2/26)
-  - [ ] Make the scenes appear more colorful (deadline: 3/16/26)
+    - [ ] Make the scenes appear more colorful (deadline: 3/16/26)
   - [ ] Add tasks to each level that the player has to complete to move on. (deadline: 3/23/26)
 
 - [ ] Back-end
