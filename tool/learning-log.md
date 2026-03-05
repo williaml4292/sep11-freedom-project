@@ -199,3 +199,8 @@ Found a way to fix the ball desyncing when the y position is higher (lower in co
 * Questions you still have
 * What you're going to try next
 -->
+### 3/5/26
+* Found a way to check the width and height of an object, meaning that I can use that to change the width and height of the `Aim` object, which also changes weight.
+  * No longer need the sequence of events in order to adjust the trajectory of the `Aim` object.
+* Good news: I fixed the y value desyncs.
+* Bad news: X is now desynced.
