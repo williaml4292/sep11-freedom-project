@@ -204,3 +204,10 @@ Found a way to fix the ball desyncing when the y position is higher (lower in co
   * No longer need the sequence of events in order to adjust the trajectory of the `Aim` object.
 * Good news: I fixed the y value desyncs.
 * Bad news: X is now desynced.
+### 3/8/26
+* Made an external events sheet so that I don't have to copy and paste all the events for each scene.
+* Made a working "objective point" (big red flag) that will change the scene the moment the ball collided with it (use `collision started event`).
+* Fixed the text object not changing upon switching scenes. (Change from upon collision with the flag to `At the beginning of the scene`).
+* Made the aiming system smoother by readjusting the multipliers on the distance from mouse action.
+  * Still somewhat desynced, but that depends on what you consider as the hitbox of the ball.
+* Tried using asset store objects, but it didn't work as well as I intended.
