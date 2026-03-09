@@ -12,7 +12,9 @@ I also found out how to change the textures of my objects so that it wouldn't ju
 ![textures](../images/editTextures.png)
 
 Finally, I fixed the issue where the text stating what level the player is on didn't change when the scene changed from the first one to the second one.  
-I found out how to do this by just searching up and using what the A.I. provided me.
+I found out how to do this by just searching up and using what the A.I. provided me:
+
+![A.I.](../images/AI.png)
 ### EDP
 
 ### Skills
