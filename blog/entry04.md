@@ -1,7 +1,7 @@
 # Entry 4
 ##### 3/9/26
 ### Content
-After I finished [entry 3](entry03.md), I've been trying out different methods to make the aiming system smoother, as constantly adjusting the multipliers for the `Aim` object makes the white trajectory line move in an _unnatural_ way.  
+After I finished [Entry 3](entry03.md), I've been trying out different methods to make the aiming system smoother, as constantly adjusting the multipliers for the `Aim` object makes the white trajectory line move in an _unnatural_ way.  
 I found out that I can just find and edit the height and width of the `Ball` object in the **properties** tab:  
 
 ![properties](../images/widthAndHeightOfBall.png)  
@@ -19,6 +19,9 @@ Finally, I fixed an issue that I had where the text stating what level the playe
 I found out how to do this by just searching up and using what AI provided me:
 
 ![AI](../images/AI.png)
+
+Using everything that I learned since [Entry 3](entry03.md), I made an external event sheet, added some textures, made a second scene, zoomed out the camera further, and added a textbox stating what level the player was at.
+
 
 Something that I've been working on was trying to implement javascript in gDevelop.  
 I ran into a few issues: not knowing the syntax for the code (_there are barely any tutorials of this_), and not knowing how to pass **multiple** objects to javascript.  
