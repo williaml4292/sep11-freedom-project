@@ -20,8 +20,11 @@ I found out how to do this by just searching up and using what AI provided me:
 
 ![AI](../images/AI.png)
 
-Using everything that I learned since [Entry 3](entry03.md), I made an external event sheet, added some textures, made a second scene, zoomed out the camera further, and added a textbox stating what level the player was at.
+Using everything that I learned since [Entry 3](entry03.md), I made an external event sheet, added some textures, made a second scene, zoomed out the camera further, and added a textbox stating what level the player was at:
 
+![sceneOne](../images/sceneOne.png)
+
+![externalEventsSheet](../images/externalEventsSheet.png)
 
 Something that I've been working on was trying to implement javascript in gDevelop.  
 I ran into a few issues: not knowing the syntax for the code (_there are barely any tutorials of this_), and not knowing how to pass **multiple** objects to javascript.  
