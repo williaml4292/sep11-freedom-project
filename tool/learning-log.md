@@ -212,3 +212,6 @@ Found a way to fix the ball desyncing when the y position is higher (lower in co
   * Still somewhat desynced, but that depends on what you consider as the hitbox of the ball.
 * Tried using asset store objects, but it didn't work as well as I intended.
 * Changed textures so that everything wouldn't just be the default purple blocks.
+### 3/14/26
+* Camera Zoom event -- lets you zoom out (... I didn't notice this so I was just stuck with a small map...)
+* Need to make an object group to pass more than 1 object to javascript.
