@@ -23,7 +23,7 @@ I ran into a few issues: not knowing the syntax for the code (_there are barely 
 In my first "test project", I was able to set the `sprite.x` of a object, but I was unable to use javascript to manipulate more than one object.  
 Recently, I found out on [this forum](https://forum.gdevelop.io/t/how-to-pass-more-than-one-object-to-javascript-event/19431) that you need object groups to do this.  
 ### EDP
-
+I am currently on the **fifth step** of the _Engineering Design Process_, which is to **create a prototype**. So far, I've done around **50%** of it, but I still have a lot to learn in order to implement javascript, especially if I want to use javascript outside of _just_ manipulating text boxes. Despite that, I could probably make a proper, functioning game when I get the time and motivation to do so (or when it's about to be due). Of course, if I were to do that right now, I wouldn't be using javascript, so that'll have to be delayed until I find a documentation for learning javascript that can be used in gDevelop. My next step of the _EDP_ is to **continue creating my prototype** (Step 5) and (hopefully) find a tutorial for javascript that can be used in gDevelop.
 ### Skills
 #### 
 ####
