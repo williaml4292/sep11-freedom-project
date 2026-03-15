@@ -27,9 +27,11 @@ Recently, I found out on [this forum](https://forum.gdevelop.io/t/how-to-pass-mo
 ### EDP
 I am currently on the **fifth step** of the _Engineering Design Process_, which is to **create a prototype**. So far, I've done around **50%** of it, but I still have a lot to learn in order to implement javascript, especially if I want to use javascript outside of _just_ manipulating text boxes. Despite that, I could probably make a proper, functioning game when I get the time and motivation to do so (or when it's about to be due). Of course, if I were to do that right now, I wouldn't be using javascript, so that'll have to be delayed until I find a documentation for learning javascript that can be used in gDevelop. My next step of the _EDP_ is to **continue creating my prototype** (Step 5) and (hopefully) find a tutorial for javascript that can be used in gDevelop.
 ### Skills
-
-#### 
-####
+Two skills that I've developed upon since the previous entry are **embracing failure** and **how to Google**.
+#### Embracing Failure
+Before I found out about finding the width and height of an object from the properties tab, I made an entire _sequence of events_ that changed the trajectory of the `Aim` object every time the distance the `player` was from the `mouse` increased by approximately 100. Reflecting back on that, it was an enormous waste of time, considering that I spent a **few days** doing all that, just to learn that the properties tab exists and using that for the dimensions of the `Aim` object has about the **same accuracy** as the sequence of events (given that I only had 5 of them), while being **smoother** at the same time. Despite this, I moved on and I kept using the property tabs for many other things, like making _perfect circles_ and _keeping dimensions the same_ for each scene so that I wouldn't have scenes with _inconsistent_ object dimensions.
+#### How to Google
+One thing that I learned while learning gDevelop is that the documentation is only good for learning about **general concepts**, as for **specific** ones, it was rarely ever useful. Therefore, I changed how I searched for things in relation to gDevelop: instead of searching up "camera zoom in gDevelop", I instead searched up "gDevelop how do you zoom out the camera". By searching things up with a "how do you..." attached, it increases the likelihood of finding **forums** that could help me. As for general concepts such as **making scenes**, I would search up, "gDevelop making scenes". In this search, it's more likely that I would find something from the gDevelop **documentation**, which would be more helpful for learning how to make a scene than a forum would be.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
