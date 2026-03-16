@@ -215,3 +215,11 @@ Found a way to fix the ball desyncing when the y position is higher (lower in co
 ### 3/14/26
 * Camera Zoom event -- lets you zoom out (... I didn't notice this so I was just stuck with a small map...)
 * Need to make an object group to pass more than 1 object to javascript.
+### 3/16/26
+* To make a sub-objective in a level, you can just check whether or not the player collided with the object and if so, delete it and change the value of a variable to be true.
+  * Use that variable to determine whether or not they can move onto the next value.
+    * As the condition, compare if the `CurrentSceneNumber()` is equal the to X and if a condition is true.
+* There exists both a physics collision and a normal one; the first one requires physics and the other doesn't.
+  * For the sub-objective, do not add any behaviors.
+Source: [forum](https://forum.gdevelop.io/t/trigger-a-collision-between-physics-object-and-non-physics-object/36475/5)
+* Finished level 2.
