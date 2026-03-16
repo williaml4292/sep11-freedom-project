@@ -223,3 +223,5 @@ Found a way to fix the ball desyncing when the y position is higher (lower in co
   * For the sub-objective, do not add any behaviors.
 Source: [forum](https://forum.gdevelop.io/t/trigger-a-collision-between-physics-object-and-non-physics-object/36475/5)
 * Finished level 2.
+* Found a documentation of some of gDevelop's javascript:
+  * https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/
