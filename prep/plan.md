@@ -9,11 +9,11 @@
 
 #### MVP
 
-- [ ] Front-end
+- [x] Front-end
   - [x] Create a textbox stating the level the player is currently on. (deadline: 2/23/26)
-  - [ ] Finish designing the first two scenes (deadline: 3/2/26)
+  - [x] Finish designing the first two scenes (deadline: 3/2/26)
     - [x] Make the scenes appear more colorful (deadline: 3/16/26)
-  - [ ] Add tasks to each level that the player has to complete to move on. (deadline: 3/23/26)
+  - [x] Add tasks to each level that the player has to complete to move on. (deadline: 3/23/26)
 
 - [ ] Back-end
   - [x] Adjust the aiming system so that it actually syncs reguardless of the y-position of the mouse. (deadline: 3/2/26)
