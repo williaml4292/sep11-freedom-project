@@ -228,3 +228,12 @@ Source: [forum](https://forum.gdevelop.io/t/trigger-a-collision-between-physics-
 ### 3/17/26
 In the documentation, there's a list of around 100 different lines of code (far more complex than just using normal gDevelop events.
 * However, there's a lot of useful code that can be used, given that I learn how to use them.
+* (https://forum.gdevelop.io/t/accessing-runtimescene-variables-using-javascript/45951)
+  * runtimeScene.getVariables().get("VariableName")  -- get a scene variable
+  * runtimeScene.getGame().getVariables().get("VariableName")  -- get a global variable
+  * runtimeScene.getGame().getVariables().get("VariableName").setValue(20) -- set the value of a variable (.setValue(X)), the first part should just be the value of another variable, then you use variableName.setvalue(X).
+ * Everything in js seems to need to be referenced using runtimeScene.Something
+* [changingScenesWithJS](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeScene.html)
+  * requestChange(change, sceneName);
+    * `change` should be REPLACE_SCENE or others.
+      * (It isn't just "change")
