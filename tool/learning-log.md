@@ -237,3 +237,14 @@ In the documentation, there's a list of around 100 different lines of code (far 
   * requestChange(change, sceneName);
     * `change` should be REPLACE_SCENE or others.
       * (It isn't just "change")
+### 3/23/26
+* Managed to get some sort of javascript to work:
+``` javascript
+var player = runtimeScene.getObjects("Ball")
+player[0].setX(800)
+```
+Basically, set the value of `player` to an **array** of objects **named** "Ball".  
+Then use indexing to set the X value of the player as 800.
+ * setX --> change the x value of an object.
+* What I found out is that you always need `runtimeScene.getSomething()` as your first line of code.
+* Afterwards, you should start checking behaviors for conditions / adding conditions (not going to be adding any since I don't have the time needeed to learn all of gDevelop js syntax).
