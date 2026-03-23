@@ -256,7 +256,7 @@ player.setX(800)
 Shortcut
 
 To put it simply, just use 
-```
+``` javascript
 var player = runtimeScene.getObjects("Ball")[0]
 var floor = runtimeScene.getObjects("Floor")[0]
 var flag = runtimeScene.getObjects("Flag")[0]
