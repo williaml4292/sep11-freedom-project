@@ -248,3 +248,4 @@ Then use indexing to set the X value of the player as 800.
  * setX --> change the x value of an object.
 * What I found out is that you always need `runtimeScene.getSomething()` as your first line of code.
 * Afterwards, you should start checking behaviors for conditions / adding conditions (not going to be adding any since I don't have the time needeed to learn all of gDevelop js syntax).
+* You don't seem to need to pass objects to gDevelop using the `click here to add objects` thingy.
