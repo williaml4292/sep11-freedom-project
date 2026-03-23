@@ -248,4 +248,20 @@ Then use indexing to set the X value of the player as 800.
  * setX --> change the x value of an object.
 * What I found out is that you always need `runtimeScene.getSomething()` as your first line of code.
 * Afterwards, you should start checking behaviors for conditions / adding conditions (not going to be adding any since I don't have the time needeed to learn all of gDevelop js syntax).
-* You don't seem to need to pass objects to gDevelop using the `click here to add objects` thingy.
+* You don't seem to need to pass objects to gDevelop using the `click here to add objects` thing.
+``` javascript
+var player = runtimeScene.getObjects("Ball")[0]
+player.setX(800)
+```
+Shortcut
+
+To put it simply, just use 
+```
+var player = runtimeScene.getObjects("Ball")[0]
+var floor = runtimeScene.getObjects("Floor")[0]
+var flag = runtimeScene.getObjects("Flag")[0]
+var text = runtimeScene.getObjects("levelName")[0]
+var obstacle = runtimeScene.getObjects("Obstacle")[0]
+var task = runtimeScene.getObjects("Star")[0]
+```
+to let gDevelop know which object(s) you are changing. (Not sure whether or not there's a different syntax for text)
