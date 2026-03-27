@@ -265,3 +265,12 @@ var obstacle = runtimeScene.getObjects("Obstacle")[0]
 var task = runtimeScene.getObjects("Star")[0]
 ```
 to let gDevelop know which object(s) you are changing. (Not sure whether or not there's a different syntax for text)
+### 3/27/26
+* `runtimeScene.getName()`
+  * Name of a scene
+* `gdjs.RuntimeObject.collisionTest(player, flag, false)`
+  * Check if two things are colliding
+    * `player` and `flag` are from `runtimeScene.getObjects("name")[0]`
+    * False is the boolean for whether or not it should ignore objects are just colliding with their edges (set to false)
+* ` runtimeScene.getVariables().get("sceneNumber")`
+  * Get a variable with the name "sceneNumber"
