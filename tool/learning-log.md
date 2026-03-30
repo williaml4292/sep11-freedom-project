@@ -274,3 +274,5 @@ to let gDevelop know which object(s) you are changing. (Not sure whether or not 
     * False is the boolean for whether or not it should ignore objects are just colliding with their edges (set to false)
 * ` runtimeScene.getVariables().get("sceneNumber")`
   * Get a variable with the name "sceneNumber"
+### 3/30/26
+Successfully got the scene to change using javascript, but I can't get the text to change as well (changes briefly (1 frame) then it's immediately reset) back to "You are on level 1."  
