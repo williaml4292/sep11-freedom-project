@@ -1,0 +1,1654 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 265,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "59f5fb07-5bb6-4257-9ed3-48d61ab3373c",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "SEP 11 Freedom Project - Copy",
+    "description": "",
+    "author": "",
+    "windowWidth": 5000,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Ball.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ball",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Floor_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Floor_Front",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Big green tree 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/2a16eb5140a567ee799947fa245017dc815f94bf9420f99b614faee126d84273_Big green tree 1.png",
+          "name": "Big green tree 1.png"
+        }
+      },
+      {
+        "file": "assets/Big green tree 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/523f5371bd78329633f73d0120dea2155a55d0bd40a73d0bba96cf8b47ee2c5a_Big green tree 3.png",
+          "name": "Big green tree 3.png"
+        }
+      },
+      {
+        "file": "assets/9patch_Orange leaves_all_128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Orange leaves_all_128.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Ground/a0876f79b74f1010a87c1dffc3cd4fbdd306d42d713dabb21d257857a5065966_9patch_Orange leaves_all_128.png",
+          "name": "9patch_Orange leaves_all_128.png"
+        }
+      },
+      {
+        "file": "assets/Big green tree 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/90395967d81f88d4022dfe8c3181669c6e43f1773addcbd2ef34195108f5663d_Big green tree 2.png",
+          "name": "Big green tree 2.png"
+        }
+      },
+      {
+        "file": "assets/Big green tree 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/f5f48441be0d16934fd43f760dc64a61dadde9ee9b4705de7876b76a39d6cd1f_Big green tree 4.png",
+          "name": "Big green tree 4.png"
+        }
+      },
+      {
+        "file": "assets/9patch_Green leaves_all_128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Green leaves_all_128.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Ground/6d46ded7e8bb8db1460cf56ad9e01e0fa3197d3a9e16510f52cae2987f2d6002_9patch_Green leaves_all_128.png",
+          "name": "9patch_Green leaves_all_128.png"
+        }
+      },
+      {
+        "file": "assets/Big green tree 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/6389525b557f178f96f14136c47b478361cf396d55a69a0cde804b3002f68736_Big green tree 5.png",
+          "name": "Big green tree 5.png"
+        }
+      },
+      {
+        "file": "assets/Big green tree 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/9d2b4a5bcdf7456dfedc6f9c0eb50d053b2fae309993bda259274fb6a3bac21a_Big green tree 6.png",
+          "name": "Big green tree 6.png"
+        }
+      },
+      {
+        "file": "assets/Big green tree 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/6ec6bd54d25bc7f7ef7e4082456787fff43fe76eb15a9fed655c07296aad40a4_Big green tree 7.png",
+          "name": "Big green tree 7.png"
+        }
+      },
+      {
+        "file": "assets/Big green tree 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big green tree 8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/02238342977533f5a953a394acff481080c8845b6a4422a0a6fc2b9818c52d62_Big green tree 8.png",
+          "name": "Big green tree 8.png"
+        }
+      },
+      {
+        "file": "assets/Big orange tree 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big orange tree 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/998ffeed576d8f06c739d1ecaa9f30c6313723f9391ba54a7bf107f2024d7b60_Big orange tree 1.png",
+          "name": "Big orange tree 1.png"
+        }
+      },
+      {
+        "file": "assets/Big orange tree 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big orange tree 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/425409478466927c74143af9c1b8bedad0abcfd3fa5edecefb042fa58ed4083a_Big orange tree 2.png",
+          "name": "Big orange tree 2.png"
+        }
+      },
+      {
+        "file": "assets/Big orange tree 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big orange tree 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/07c87a022cbb95fa522f5dccd24cc926e64156d06542b4ae2616405e73344db7_Big orange tree 3.png",
+          "name": "Big orange tree 3.png"
+        }
+      },
+      {
+        "file": "assets/Big orange tree 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big orange tree 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/8eb60e32f8c2affb8d20bebf5d54db486dcae87ef17d214fcfb05a41499fbee2_Big orange tree 4.png",
+          "name": "Big orange tree 4.png"
+        }
+      },
+      {
+        "file": "assets/Big tree with snow 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big tree with snow 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/6a3b5cbb0adfa32ae5ebfbc6db9a0e2e97f559bb30f92379a8e42eaff952bddf_Big tree with snow 3.png",
+          "name": "Big tree with snow 3.png"
+        }
+      },
+      {
+        "file": "assets/Big orange tree 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big orange tree 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/ad0aca131d7741230db2c3692fe508bf315ee5c4297ff1c8bcdee104705b7144_Big orange tree 5.png",
+          "name": "Big orange tree 5.png"
+        }
+      },
+      {
+        "file": "assets/Big orange tree 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big orange tree 6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/688a54cfcf6c0fb969017f81b7c00c1546c530f41085729195d367a5e420bf3f_Big orange tree 6.png",
+          "name": "Big orange tree 6.png"
+        }
+      },
+      {
+        "file": "assets/Big tree with snow 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big tree with snow 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/3f7e8516260685c5596cd597e5eb7f0e6a9e02830e86c86f218250cb4bb67dab_Big tree with snow 1.png",
+          "name": "Big tree with snow 1.png"
+        }
+      },
+      {
+        "file": "assets/Big tree with snow 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big tree with snow 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/cb3fe1c0cef189a2e826b8a2849597e41c78292d9dc374af04b981ae4972e0bf_Big tree with snow 2.png",
+          "name": "Big tree with snow 2.png"
+        }
+      },
+      {
+        "file": "assets/Blue flower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue flower.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/7b77c8a350999469ddf39a84d6abdde284dce704e159b5635982ac6f6c552195_Blue flower.png",
+          "name": "Blue flower.png"
+        }
+      },
+      {
+        "file": "assets/Blue small plant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue small plant.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/99ad1c67325716985f41aab4976ed44f12eb8a9b06fe85f304164c88df7b10c0_Blue small plant.png",
+          "name": "Blue small plant.png"
+        }
+      },
+      {
+        "file": "assets/Green bush 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green bush 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/42f4a550a0579a4250eff104d8d29f9f6d85dd73a45c2e5a31b01f283516d45a_Green bush 1.png",
+          "name": "Green bush 1.png"
+        }
+      },
+      {
+        "file": "assets/Green bush 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green bush 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/dc7d8afad5425d878c0c8f0451f8a1a0f3f51086f7ad7135ff046ac7295176c6_Green bush 4.png",
+          "name": "Green bush 4.png"
+        }
+      },
+      {
+        "file": "assets/Green bush 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green bush 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/f2e369071ea1a4aba9ec5ae16b3d74f66ef836c500329fd0109bb49ba6df3ffc_Green bush 2.png",
+          "name": "Green bush 2.png"
+        }
+      },
+      {
+        "file": "assets/Green bush 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green bush 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/683475754a64caa9967c7efefd956f654f817472e0a6a5fb59ed30e7e0638d42_Green bush 3.png",
+          "name": "Green bush 3.png"
+        }
+      },
+      {
+        "file": "assets/Green tree leaves 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green tree leaves 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/11164015cbb588c1ad02b1ef425636d009ff3d07e307fd24c1d3ffb5da967c3a_Green tree leaves 1.png",
+          "name": "Green tree leaves 1.png"
+        }
+      },
+      {
+        "file": "assets/Green tree leaves 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green tree leaves 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/87b33288a17f509a2618a710bbf4197750e93179b69e3db34b188a18667ad2be_Green tree leaves 2.png",
+          "name": "Green tree leaves 2.png"
+        }
+      },
+      {
+        "file": "assets/Green tree leaves 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green tree leaves 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/c61620f63570c6be3697a058adc144f15de4fb9170022915a45cd78f3d5e87ad_Green tree leaves 4.png",
+          "name": "Green tree leaves 4.png"
+        }
+      },
+      {
+        "file": "assets/Green tree leaves 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green tree leaves 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/baa000173898983c15c381adfbb3109538970afe240760770e9e172a0d0ae934_Green tree leaves 5.png",
+          "name": "Green tree leaves 5.png"
+        }
+      },
+      {
+        "file": "assets/Green tree leaves 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green tree leaves 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/2b344377e58bfe741095d082453eb4f08639674275ebbde8df093303ebf6e1c5_Green tree leaves 3.png",
+          "name": "Green tree leaves 3.png"
+        }
+      },
+      {
+        "file": "assets/Green tree leaves 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green tree leaves 6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/25a27410c78da6d60543859861591fafbdb4d40c24121713950081c76048f80e_Green tree leaves 6.png",
+          "name": "Green tree leaves 6.png"
+        }
+      },
+      {
+        "file": "assets/Green tree leaves 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green tree leaves 7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/7acb61ab5b644c2b73b24bb46dbeb8045e962590444a0584c4ca9d4c164f1638_Green tree leaves 7.png",
+          "name": "Green tree leaves 7.png"
+        }
+      },
+      {
+        "file": "assets/Orange tree leaves 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange tree leaves 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/7eb361daffd9faf05a3758f73d07e3ebb853cdabe393b2e30174b4da5a453674_Orange tree leaves 1.png",
+          "name": "Orange tree leaves 1.png"
+        }
+      },
+      {
+        "file": "assets/Orange tree leaves 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange tree leaves 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/f28315dfce90edbf9abc268f129b5e2e659dee9b9b086395eb7f508865531f82_Orange tree leaves 3.png",
+          "name": "Orange tree leaves 3.png"
+        }
+      },
+      {
+        "file": "assets/Orange tree leaves 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange tree leaves 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/9e7de8e7892e01fc65ac8397002e996fd0374d7575d1570578896b4871223490_Orange tree leaves 2.png",
+          "name": "Orange tree leaves 2.png"
+        }
+      },
+      {
+        "file": "assets/Orange tree leaves 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange tree leaves 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/42fc91baff77ce26e081fdd2c9d3d7f487b4f9c1f562ee0a0f2aa53c1c436510_Orange tree leaves 4.png",
+          "name": "Orange tree leaves 4.png"
+        }
+      },
+      {
+        "file": "assets/Orange tree leaves 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange tree leaves 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/6b529da3939dd6e832717f812b6695867471ccc20a72137c9ca1014d4ca6f126_Orange tree leaves 5.png",
+          "name": "Orange tree leaves 5.png"
+        }
+      },
+      {
+        "file": "assets/Orange tree leaves 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange tree leaves 6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/9c4cf6d84d5eb4b744e0cf686868201e655e51539fa7360e232ed7d6456e157e_Orange tree leaves 6.png",
+          "name": "Orange tree leaves 6.png"
+        }
+      },
+      {
+        "file": "assets/Purple small plant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple small plant.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/478f652dba77ba458373df31ce2c677db304d1a4833819df476ba15a01e48e3a_Purple small plant.png",
+          "name": "Purple small plant.png"
+        }
+      },
+      {
+        "file": "assets/Red flower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red flower.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/47b0fca3b60eb8ab6e0c583ef1905e2ff441150562b47284db38be61d3ec73a4_Red flower.png",
+          "name": "Red flower.png"
+        }
+      },
+      {
+        "file": "assets/Small grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small grass.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/1347af7aee35484ecee5ecf61587f5157b511b9224e1a6bcad45eab58442e26a_Small grass.png",
+          "name": "Small grass.png"
+        }
+      },
+      {
+        "file": "assets/Small plant 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small plant 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/45e1fa6abc6f7e3da2c38f0130960d4b12e60e8840cb5c5dbfe973f9172ca8bc_Small plant 1.png",
+          "name": "Small plant 1.png"
+        }
+      },
+      {
+        "file": "assets/Small plant 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small plant 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/93076389aa26c1cb226895e4b5cdf6f9b7c0c701133e610fba408c5b563096cc_Small plant 2.png",
+          "name": "Small plant 2.png"
+        }
+      },
+      {
+        "file": "assets/Tiny grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiny grass.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/1e714815624e850e127dd4d2dbf5a272042fa1efd9926a31618e8a3a96405121_Tiny grass.png",
+          "name": "Tiny grass.png"
+        }
+      },
+      {
+        "file": "assets/Trunk 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trunk 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/159b51227e8aa6d37f3a01b5e5d00c6c020a20a4b78f1b84f0a0df88d6e4a35d_Trunk 1.png",
+          "name": "Trunk 1.png"
+        }
+      },
+      {
+        "file": "assets/Trunk 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trunk 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/6d9bc31a95fa9c0f6ceea454eb44bd551eeea173a77209f0ba0922463b4e5371_Trunk 2.png",
+          "name": "Trunk 2.png"
+        }
+      },
+      {
+        "file": "assets/Trunk 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trunk 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/6b4b52c818835d310e85ac1eb852f77484f3a9dc152fc50184a21e56ea8a7ae4_Trunk 3.png",
+          "name": "Trunk 3.png"
+        }
+      },
+      {
+        "file": "assets/Trunk 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trunk 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/05f875c07814de89a0493334403e71c215271d48310dfde3efeb4e3d3a5f5b9a_Trunk 4.png",
+          "name": "Trunk 4.png"
+        }
+      },
+      {
+        "file": "assets/White tree 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White tree 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/d55d8e7958c4a729a3773b4840f310684dae293849fad83847ff2a26f9fed82d_White tree 1.png",
+          "name": "White tree 1.png"
+        }
+      },
+      {
+        "file": "assets/White tree 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White tree 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/fc4e19c3d677c2bc5cc2b9de8a79c0181bb292246aa84b20772f80fdba558eb3_White tree 2.png",
+          "name": "White tree 2.png"
+        }
+      },
+      {
+        "file": "assets/White tree 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White tree 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/d74a997cdad55844a0fe6a81a5f1808386fa3d6e01bc242bdd0fd3daa1f02c1f_White tree 3.png",
+          "name": "White tree 3.png"
+        }
+      },
+      {
+        "file": "assets/White trunk 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White trunk 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/e193f68c1b6858a4c695fa60377f4a2586c05ccc8e09d76945a5b9f2a41e4477_White trunk 2.png",
+          "name": "White trunk 2.png"
+        }
+      },
+      {
+        "file": "assets/White trunk 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White trunk 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/d4a8e5e5a7b0791f767153372f0ba708a8408bb4b72dc1b5451f3aab982084c2_White trunk 3.png",
+          "name": "White trunk 3.png"
+        }
+      },
+      {
+        "file": "assets/White trunk 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White trunk 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/9b1eb207b12df1cd92fad61b4a44885ceee578cd1db624b29893baf54fc861f5_White trunk 4.png",
+          "name": "White trunk 4.png"
+        }
+      },
+      {
+        "file": "assets/White trunk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White trunk.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/dcc2079525569a56b7a3812b75ce2cb1d854b7d36f730d9630b8d68c43408b8e_White trunk.png",
+          "name": "White trunk.png"
+        }
+      },
+      {
+        "file": "assets/Rock 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/b314745b840a5c2a61fd9e5ad6140ab1fa693772b897a83ad91b460b828cb0c4_Rock 1.png",
+          "name": "Rock 1.png"
+        }
+      },
+      {
+        "file": "assets/Rock 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/f669c1d0385fc56b0caef880baf631950e04b4df63f1ce2cddf8b42629dd9f8c_Rock 2.png",
+          "name": "Rock 2.png"
+        }
+      },
+      {
+        "file": "assets/Rock 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/a99ca2cdbce83720ee93308d158a61a5fbffafd444622176a4c489652f786ed7_Rock 3.png",
+          "name": "Rock 3.png"
+        }
+      },
+      {
+        "file": "assets/Rock 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/7bf8fc163ada5efb219b700594488e453d4dc5edcb173d3a3f065d291fdaa97e_Rock 4.png",
+          "name": "Rock 4.png"
+        }
+      },
+      {
+        "file": "assets/Rock 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Rock/714407c40e93b4715ece938c815cfdbc3c0b552f3c06d3b6d1d83c9824103549_Rock 5.png",
+          "name": "Rock 5.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New3DBox_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Front",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Ball",
+      "persistentUuid": "cec81871-1e9d-4368-9209-21bd519a68b6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "star"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "MaxMovementSpeed_Physics",
+          "type": "SpeedRestrictions::MaxMovementSpeed_Physics",
+          "PhysicsBehavior": "Physics2",
+          "MaximumSpeed": 1500
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Circle",
+          "shapeDimensionA": 75,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.8,
+          "restitution": 0.4,
+          "linearDamping": 0.5,
+          "angularDamping": 0.5,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Ball",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ball",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 33,
+                    "y": 32
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 63,
+                        "y": 2
+                      },
+                      {
+                        "x": 63,
+                        "y": 62
+                      },
+                      {
+                        "x": 2,
+                        "y": 62
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Invisible_Object",
+      "persistentUuid": "cc0ae902-3909-4f11-9e6c-a56835226871",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Floor",
+      "persistentUuid": "a7fdef60-201a-4896-859e-07697c3256c6",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "star"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "Floor_Front",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "tint": "255;255;255",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Flag",
+      "persistentUuid": "14ad2f83-37b6-4d2d-b438-19f4e78d1ed9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "flag"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 23
+                      },
+                      {
+                        "x": 34,
+                        "y": 23
+                      },
+                      {
+                        "x": 34,
+                        "y": 63
+                      },
+                      {
+                        "x": 2,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "levelName",
+      "persistentUuid": "af742420-6191-459c-8d18-460f726b3857",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "levelName"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "You are on level 1.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You are on level 1.",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Aim",
+      "persistentUuid": "60f9f0bf-5382-4354-84cc-3104b56c9dec",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 200,
+          "unseenGraceDistance": 10000
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 160,
+          "shapeDimensionB": 160,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.4,
+          "restitution": 0.4,
+          "linearDamping": 0.5,
+          "angularDamping": 0.5,
+          "gravityScale": 95,
+          "layers": 0,
+          "masks": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 23
+                      },
+                      {
+                        "x": 35,
+                        "y": 23
+                      },
+                      {
+                        "x": 35,
+                        "y": 33
+                      },
+                      {
+                        "x": 24,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Star",
+      "persistentUuid": "91223c23-d1a5-4436-9ff3-858394d747ce",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "star"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Star",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 0
+                      },
+                      {
+                        "x": 55,
+                        "y": 63
+                      },
+                      {
+                        "x": 5,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Obstacle",
+      "persistentUuid": "3349703b-0cdb-41ae-8a19-b0eb4b5d0907",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "name": "ID",
+          "type": "string",
+          "value": "obstacle"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.7,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "New3DBox_Front",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "tint": "255;255;255",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Ball"
+      },
+      {
+        "objectName": "Invisible_Object"
+      },
+      {
+        "objectName": "Star"
+      },
+      {
+        "objectName": "Floor"
+      },
+      {
+        "objectName": "Flag"
+      },
+      {
+        "objectName": "levelName"
+      },
+      {
+        "objectName": "Aim"
+      },
+      {
+        "objectName": "Obstacle"
+      }
+    ]
+  },
+  "objectsGroups": [
+    {
+      "name": "allObjects",
+      "objects": [
+        {
+          "name": "Ball"
+        },
+        {
+          "name": "Invisible_Object"
+        },
+        {
+          "name": "Flag"
+        },
+        {
+          "name": "Floor"
+        },
+        {
+          "name": "levelName"
+        },
+        {
+          "name": "Aim"
+        },
+        {
+          "name": "Star"
+        },
+        {
+          "name": "Obstacle"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "sceneNumber",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "mouse",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "canClick",
+      "type": "string",
+      "value": "true"
+    },
+    {
+      "name": "hasCollided",
+      "type": "string",
+      "value": "false"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/3"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/global"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/draggablephysics"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/speedrestrictions"
+    }
+  ],
+  "externalLayouts": []
+}

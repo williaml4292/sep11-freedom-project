@@ -1,0 +1,323 @@
+{
+  "associatedLayout": "1",
+  "name": "Global",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "Invisible_Object",
+            "=",
+            "MouseX()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetY"
+          },
+          "parameters": [
+            "Invisible_Object",
+            "=",
+            "MouseY()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "canClick",
+            "=",
+            "\"true\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "0.666",
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "canClick",
+            "=",
+            "\"true\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::ApplyForceTowardPosition"
+          },
+          "parameters": [
+            "Ball",
+            "Physics2",
+            "DistanceBetweenPositions(Ball.X(), Ball.Y(), MouseX(), MouseY())*2.5",
+            "MouseX()",
+            "MouseY()",
+            "MouseX()",
+            "MouseY()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "canClick",
+            "=",
+            "\"true\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Aim",
+            "Ball.X()+50",
+            "Ball.Y()-20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Physics2::ApplyForceTowardPosition"
+          },
+          "parameters": [
+            "Aim",
+            "Physics2",
+            "DistanceBetweenPositions(Ball.X()+50, Ball.Y()-20, MouseX(), MouseY())*30",
+            "MouseX()",
+            "MouseY()",
+            "MouseX()",
+            "MouseY()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "CursorX"
+          },
+          "parameters": [
+            "",
+            ">",
+            "Ball.X()",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::ApplyTorque"
+          },
+          "parameters": [
+            "Ball",
+            "Physics2",
+            "0.9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Physics2::LinearVelocityLength"
+          },
+          "parameters": [
+            "Ball",
+            "Physics2",
+            ">",
+            "75"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "canClick",
+            "=",
+            "\"false\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Physics2::LinearVelocityLength"
+          },
+          "parameters": [
+            "Ball",
+            "Physics2",
+            "<=",
+            "75"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "canClick",
+            "=",
+            "\"true\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Ball",
+            "Star",
+            "Star",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Star",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "hasCollided",
+            "=",
+            "\"true\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": [
+        "runtimeScene.setBackgroundColor(135,206,235);\r",
+        "var sceneNumber = runtimeScene.getGame().getVariables().get(\"sceneNumber\").getAsString()\r",
+        "var player = runtimeScene.getObjects(\"Ball\")[0]\r",
+        "var floor = runtimeScene.getObjects(\"Floor\")[0]\r",
+        "var flag = runtimeScene.getObjects(\"Flag\")[0]\r",
+        "var obstacle = runtimeScene.getObjects(\"Obstacle\")[0]\r",
+        "var task = runtimeScene.getObjects(\"Star\")[0]\r",
+        "var taskDone = runtimeScene.getGame().getVariables().get(\"hasCollided\").getAsString()\r",
+        "\r",
+        "if (runtimeScene.getName() == \"1\" && gdjs.RuntimeObject.collisionTest(player,flag, false)){\r",
+        "    sceneNumber = \"2\"\r",
+        "    runtimeScene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, sceneNumber)\r",
+        "}\r",
+        "if (runtimeScene.getName() == \"2\" && gdjs.RuntimeObject.collisionTest(player,flag, false) && taskDone == \"true\"){\r",
+        "    sceneNumber = \"3\"\r",
+        "    runtimeScene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, sceneNumber)\r",
+        "}\r",
+        ""
+      ],
+      "parameterObjects": "allObjects",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+    }
+  ]
+}
