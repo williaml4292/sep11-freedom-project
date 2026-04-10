@@ -283,3 +283,5 @@ The correct syntax for getting variables is:
 * `.getGame()` is for global variables (don't need it for scene variables)
 * `.getAsString()` is important so that the data type is that of a string.  
 Decided to change the text from a global object to a scene one, so I don't have to use events to change it.
+
+* Scene changes are done using javascript, movement is done using normal gDevelop events (thus far).
