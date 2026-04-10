@@ -276,3 +276,10 @@ to let gDevelop know which object(s) you are changing. (Not sure whether or not 
   * Get a variable with the name "sceneNumber"
 ### 3/30/26
 Successfully got the scene to change using javascript, but I can't get the text to change as well (changes briefly (1 frame) then it's immediately reset) back to "You are on level 1."  
+### 4/9/26
+* Decided to give up on converting the text change to javascript since I can't figure out how to stop the change from being overwritten.  
+The correct syntax for getting variables is:
+`var sceneNumber = runtimeScene.getGame().getVariables().get("sceneNumber").getAsString()`
+* `.getGame()` is for global variables (don't need it for scene variables)
+* `.getAsString()` is important so that the data type is that of a string.  
+Decided to change the text from a global object to a scene one, so I don't have to use events to change it.
