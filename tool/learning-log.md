@@ -291,3 +291,9 @@ Decided to change the text from a global object to a scene one, so I don't have 
   
 Not that much code present since you can outright make the objects without any code whatsoever.  
 For example, if I were to use text, I can just initialize it in the interface without any events or javascript.
+
+### 4/10/26
+* Figured out how to use github desktop to get my game onto github pages.
+* However, for some reason, the aiming system (displayed trajectory when holding the left mouse button) got messed up. (Two different trajectories are showing at the same time.)
+  * Going to commment out the part for the trajectory since I don't know what caused it.
+    * If I have time after the break, I'll try to fix it.
