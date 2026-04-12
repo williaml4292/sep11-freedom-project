@@ -1,0 +1,91 @@
+{
+  "associatedLayout": "3",
+  "name": "WIP",
+  "events": [
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "Invisible_Object",
+            "=",
+            "MouseX()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetY"
+          },
+          "parameters": [
+            "Invisible_Object",
+            "=",
+            "MouseY()"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "canClick",
+            "=",
+            "\"true\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Aim",
+            "Ball.X()+50",
+            "Ball.Y()-20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Physics2::ApplyForceTowardPosition"
+          },
+          "parameters": [
+            "Aim",
+            "Physics2",
+            "DistanceBetweenPositions(Ball.X()+50, Ball.Y()-20, MouseX(), MouseY())*30",
+            "MouseX()",
+            "MouseY()",
+            "MouseX()",
+            "MouseY()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

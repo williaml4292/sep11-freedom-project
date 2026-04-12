@@ -22,7 +22,7 @@ gdjs._50Code.GDObstacleObjects2= [];
 gdjs._50Code.mapOfGDgdjs_9546_959550Code_9546GDBallObjects1Objects = Hashtable.newFrom({"Ball": gdjs._50Code.GDBallObjects1});
 gdjs._50Code.mapOfGDgdjs_9546_959550Code_9546GDStarObjects1Objects = Hashtable.newFrom({"Star": gdjs._50Code.GDStarObjects1});
 gdjs._50Code.mapOfGDgdjs_9546_959550Code_9546GDAimObjects1Objects = Hashtable.newFrom({"Aim": gdjs._50Code.GDAimObjects1});
-gdjs._50Code.userFunc0xaa8558 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs._50Code.userFunc0x9f9fa0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 runtimeScene.setBackgroundColor(135,206,235);
 // Variables and Objects from the scene.
@@ -229,7 +229,7 @@ objects.push.apply(objects,gdjs._50Code.GDFloorObjects1);
 objects.push.apply(objects,gdjs._50Code.GDAimObjects1);
 objects.push.apply(objects,gdjs._50Code.GDStarObjects1);
 objects.push.apply(objects,gdjs._50Code.GDObstacleObjects1);
-gdjs._50Code.userFunc0xaa8558(runtimeScene, objects);
+gdjs._50Code.userFunc0x9f9fa0(runtimeScene, objects);
 
 }
 
