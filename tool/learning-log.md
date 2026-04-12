@@ -298,3 +298,10 @@ For example, if I were to use text, I can just initialize it in the interface wi
   * Going to commment out the part for the trajectory since I don't know what caused it.
     * If I have time after the break, I'll try to fix it.
       * Edit: It seems to only break when I run it on my personal computer, it still works on the school chromebook.
+### 4/11/26
+``` javascript
+if (player.getY() > 1250){
+    runtimeScene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, runtimeScene.getName())
+}
+```
+* When the player's y value is greater than 1250, restart the scene.
