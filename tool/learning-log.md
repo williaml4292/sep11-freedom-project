@@ -305,3 +305,5 @@ if (player.getY() > 1250){
 }
 ```
 * When the player's y value is greater than 1250, restart the scene.
+
+The aiming system seems to only break on certain computers (works on my iPhone and chromebook, but not windows).
