@@ -15,6 +15,8 @@ After the change (code blocks and javascript are separated):
 ![blockSection](../images/externalEventsSheetBlockSection.png)
 
 ![javascriptSection](../images/externalEventsSheetJavascriptSection.png)
+
+On another note, I've already finished my MVP by this point as my game properly functions well (other than the bug with the aiming system not working on certain computers).
 ### EDP
 
 ### Skills
