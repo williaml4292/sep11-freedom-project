@@ -4,11 +4,11 @@
 ### Content
 After finishing entry 4, I've been working on learning how to implement javascript into my game.  
 I have managed to find [a documentation](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/) for this and have been learning about how to convert the code I had previously into javascript.  
-Before:  
+Before (no javascript):  
 
 ![externalEventsSheetNoJavascript](../images/externalEventsSheet.png)
 
-After:  
+After (code blocks and javascript are separated):  
 
 ![blockSection](../images/externalEventsSheetBlockSection.png)
 
