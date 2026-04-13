@@ -10,7 +10,7 @@ Before:
 
 After:  
 
-![blockSection](../images/externalEventsSheetBlocksSection.png)
+![blockSection](../images/externalEventsSheetBlockSection.png)
 
 ![javascriptSection](../images/externalEventsSheetJavascriptSection.png)
 ### EDP
