@@ -224,7 +224,7 @@ Found a way to fix the ball desyncing when the y position is higher (lower in co
 Source: [forum](https://forum.gdevelop.io/t/trigger-a-collision-between-physics-object-and-non-physics-object/36475/5)
 * Finished level 2.
 * Found a documentation of some of gDevelop's javascript:
-  * https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/
+  * [https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/)
 ### 3/17/26
 In the documentation, there's a list of around 100 different lines of code (far more complex than just using normal gDevelop events.
 * However, there's a lot of useful code that can be used, given that I learn how to use them.
