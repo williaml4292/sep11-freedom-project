@@ -18,17 +18,17 @@ After the change (code blocks and javascript are separated):
 ![javascriptSection](../images/externalEventsSheetJavascriptSection.png)
 
 * `var variableName = runtimeScene.getGame().getVariables().get("theVariableName").getAsString()`
-  *  Get the **variable** within the scene or game (`.getGame()` changes it to a global variable that persists across scene changes) and saves it into a **javascript variable** so that it can be _interacted with using javascript_.
+  *  Gets the **variable** within the scene or game (`.getGame()` changes it to a global variable that persists across scene changes) and save it into a **javascript variable** so that it can be _interacted with using javascript_.
 * `var objectName = runtimeScene.getObjects("nameOfObjects")`
   * Gets all **objects** with the name `nameOfObjects` and assign them (as an **array**) to the variable named `objectName`.
 * `runtimeScene.getName()`
-  * Get the name of the scene.
+  * Gets the name of the scene.
 * `gdjs.RuntimeObject.collisionTest(object1, object2, booleanForWhetherOrNotToIgnoreEdges)`
   * Checks for **collision** between objects 1 and  2.
 * `gdjs.SceneChangeRequest.REPLACE_SCENE, nameOfScene`
   * Changes the scene (level) to `nameOfScene`.
 * `.getY()`
-  * Get the y value of an object.
+  * Gets the y value of an object.
     
 So far, I've only used javascript for the **scene changes** and **resetting the scene if the player fell off the edge**.  
 
@@ -43,7 +43,7 @@ On another note, I've already _finished my MVP_ (was almost done during entry 4)
 [The preview of my MVP.](https://williaml4292.github.io/sep11-freedom-project/)  
 
 ### EDP
-
+I am currently on the 6'th step of the **Engineering Design Process**, which is to _test and evaluate the prototype_. Since I've already finished the MVP, I'm currently _assessing what I should do next_, given that I have the time to do so and I'm not flooded with homework assignments. So far, I've not seen too many issues with the prototype itself and I don't really know how to fix the problem of the _aiming system not working with certain computers_. (I'm not even going to try to figure out why the game behaves differently based on the computer.) My next step of the EDP is to _improve my game as needed_. Currently, I'm considering attempting to _convert the movement system into javascript_, but I doubt that I'll have the time to learn it as the _marking period is ending soon_ and there's bound to be a ton of homework.
 ### Skills
 ####
 ####
