@@ -62,9 +62,12 @@ However, the movement system is far more **complex** than changing scenes.
 I would have to **learn and memorize** (since I don't want to just forget about it by next year and even if I do, I want to be able to figure it out immediately after checking the code) far more during the break.  
 Although it's true that there's a lot of time during the break that _could_ be used for my _Freedom Project_, more than half of my classes gave homework during the break, with two of them being very long, taking approximately _12 hours in total_ (not including the Freedom Project).  
 I didn't want to spend too much time during my break doing homework, so I just decided to convert the _less complex scene changes_ into javascript.  
-In any case, it would be helpful if wanted to _add more features to my game_ as I've already made a `sceneNumber` variable that changes based on what level the player was on.  
+In any case, it would be helpful if I wanted to _add more features to my game_ as I've already made a `sceneNumber` variable that changes based on what level the player was on.  
 This can be used for _additional conditionals_ if I were to decide to add more tasks to the levels.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
+
+
+
