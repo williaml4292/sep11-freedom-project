@@ -36,7 +36,7 @@ As for **movement**, **zooming out the camera** at the _start of the scene_, and
 
 The reason why I chose not to do the events for the task object in javascript is because it just didn't work: `task.deleteFromScene(runtimeScene)` returns `undefined` because I didn't use physics for the task object (so that other objects can't just collide with the task object and become an immovable wall).  
 
-On another note, I've already _finished my MVP_ (was almost done during entry 4) as my game properly functions well (other than the bug with the _aiming system not working on certain computers_).
+On another note, I've _finished my MVP_ (was almost done during entry 4) as all I needed to add to complete the [plan](https://github.com/williaml4292/sep11-freedom-project/blob/main/prep/plan.md) I made for myself was javascript that interacted with objects.
 
 [My external events sheet.](https://github.com/williaml4292/sep11-freedom-project/blob/gh-pages/externalEvents/global.json)  
 [The branch in github.](https://github.com/williaml4292/sep11-freedom-project/tree/gh-pages)  
