@@ -45,8 +45,25 @@ On another note, I've already _finished my MVP_ (was almost done during entry 4)
 ### EDP
 I am currently on the 6'th step of the **Engineering Design Process**, which is to _test and evaluate the prototype_. Since I've already finished the MVP, I'm currently _assessing what I should do next_, given that I have the time to do so and I'm not flooded with homework assignments. So far, I've not seen too many issues with the prototype itself and I don't really know how to fix the problem of the _aiming system not working with certain computers_. (I'm not even going to try to figure out why the game behaves differently based on the computer.) My next step of the EDP is to _improve my game as needed_. Currently, I'm considering attempting to _convert the movement system into javascript_, but I doubt that I'll have the time to learn it as the _marking period is ending soon_ and there's bound to be a ton of homework.
 ### Skills
-####
-####
+Two skills that I've developed while learning how to use javascript in gDevelop are **attention to detail** and **time management**.
+#### Attention to Detail
+Using javascript in gDevelop is hard because there are many syntax rules that you must **memorize** and many of them are extremely **long**.  
+
+For instance, **just** linking a variable created outside of javascript requires this long line of code:  
+`runtimeScene.getGame().getVariables().get("variableName")`  
+Messing up any part of this line of code results in an error.  
+Then, you have to know that this makes an **array** so you have to put a `[0]` after it when there's only one object named as such. 
+
+I don't even know how the indexing would work when there's more than one object with the same name.  
+If I were to guess, it's probably just _random since you can't alphabetically order variables with the same name_.
+#### Time Management
+Converting the _entire movement system_ into javascript is considerably more flashy than just _changing scenes_ using javascript.  
+However, the movement system is far more **complex** than changing scenes.  
+I would have to **learn and memorize** (since I don't want to just forget about it by next year and even if I do, I want to be able to figure it out immediately after checking the code) far more during the break.  
+Although it's true that there's a lot of time during the break that _could_ be used for my _Freedom Project_, more than half of my classes gave homework during the break, with two of them being very long, taking approximately _12 hours in total_ (not including the Freedom Project).  
+I didn't want to spend too much time during my break doing homework, so I just decided to convert the _less complex scene changes_ into javascript.  
+In any case, it would be helpful if wanted to _add more features to my game_ as I've already made a `sceneNumber` variable that changes based on what level the player was on.  
+This can be used for _additional conditionals_ if I were to decide to add more tasks to the levels.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
