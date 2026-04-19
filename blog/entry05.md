@@ -17,10 +17,26 @@ After the change (code blocks and javascript are separated):
 
 ![javascriptSection](../images/externalEventsSheetJavascriptSection.png)
 
+* `var variableName = runtimeScene.getGame().getVariables().get("theVariableName").getAsString()`
+  *  Get the **variable** within the scene or game (`.getGame()` changes it to a global variable that persists across scene changes) and saves it into a **javascript variable** so that it can be _interacted with using javascript_.
+* `var objectName = runtimeScene.getObjects("nameOfObjects")`
+  * Gets all **objects** with the name `nameOfObjects` and assign them (as an **array**) to the variable named `objectName`.
+* `runtimeScene.getName()`
+  * Get the name of the scene.
+* `gdjs.RuntimeObject.collisionTest(object1, object2, booleanForWhetherOrNotToIgnoreEdges)`
+  * Checks for **collision** between objects 1 and  2.
+* `gdjs.SceneChangeRequest.REPLACE_SCENE, nameOfScene`
+  * Changes the scene (level) to `nameOfScene`.
+* `.getY()`
+  * Get the y value of an object.
+    
 So far, I've only used javascript for the **scene changes** and **resetting the scene if the player fell off the edge**.  
-As for **movement**, **zooming out the camera** at the _start of the scene_, and **deleting** the task object alongside changing `hasCollided` (a variable) to be **true**, I used the normal gDevelop events.  
+
+As for **movement**, **zooming out the camera** at the _start of the scene_, and **deleting** the task object alongside changing `hasCollided` (a variable) to be **true** upon collision, I used the normal gDevelop events.  
+
 The reason why I chose not to do the events for the task object in javascript is because it just didn't work: `task.deleteFromScene(runtimeScene)` returns `undefined` because I didn't use physics for the task object (so that other objects can't just collide with the task object and become an immovable wall).  
-On another note, I've already finished my MVP by this point as my game properly functions well (other than the bug with the aiming system not working on certain computers).
+
+On another note, I've already _finished my MVP_ (was almost done during entry 4) as my game properly functions well (other than the bug with the _aiming system not working on certain computers_).
 
 [My external events sheet.](https://github.com/williaml4292/sep11-freedom-project/blob/gh-pages/externalEvents/global.json)  
 [The branch in github.](https://github.com/williaml4292/sep11-freedom-project/tree/gh-pages)  
