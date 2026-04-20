@@ -22,8 +22,9 @@
   - [x] Finish MVP (deadline: 4/1/26)
 #### Beyond MVP
 
-- [ ] Add more scenes
-- [ ] Adds conditions for the player to 'die'.
+- [ ] Make it so that the player can shoot again in a shorter time frame.
+- [ ] Increase the size of the `Aim` projectile.
+- [ ] Instructions on level 1.
 - [ ] Add the background and mid-ground so that it looks more real instead of just being a floating plane in the middle of the sky.
 <!-- EXAMPLE
 
