@@ -11,13 +11,16 @@
 * Blogs 2+
   * Blog 2: Learning collisions and the first aim system that I made.
   * Blog 3: Aiming system v2 (using a series of conditionals).
-  * Blog 4: Aiming system v3
-  * Implementing javascript
+  * Blog 5: Implementing javascript
     * Learning how to link variables to the objects (originally thought that I had to use object groups, but you don't need to)
     * Changing scenes and collisions (other than deleting star and changing a variable) are with javascript.
 
 ## Conclusion
-* 
+* Takeaways
+  * Simplicity is oftentimes superior to complexity.
+    * (Multiple conditionals in Blog 3 for the aiming system forsakes confort for accuracy, which is worse than being slightly              inaccurate but in return, smooth to play.)
+  * Check the documentation for what you're thinking about learning before committing.
+    * I slightly regret picking gDevelop, mainly because the javascript seems extremely strange, which is also the reason why I didn't devote all my time to converting the simple code to javascript.
 
 <!-- EXAMPLE
 
