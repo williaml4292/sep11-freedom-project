@@ -1,13 +1,15 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Do you like playing games?
 
 ## Product
+Preview link
 * Showcase entire game (it's very short)
   * If there isn't enough time, just do level 1.
 
 ## Process
+Pictures and explain (like a timeline).
 * Blogs 2+
   * Blog 2: Learning collisions and the first aim system that I made.
   * Blog 3: Aiming system v2 (using a series of conditionals).
@@ -22,6 +24,7 @@
   * Check the documentation for what you're thinking about learning before committing.
     * I slightly regret picking gDevelop, mainly because the javascript seems extremely strange, which is also the reason why I didn't devote all my time to converting the simple code to javascript.
 
+Thank you
 <!-- EXAMPLE
 
 ## Hook
