@@ -4,10 +4,17 @@
 * 
 
 ## Product
-* 
+* Showcase entire game (it's very short)
+  * If there isn't enough time, just do level 1.
 
 ## Process
-* 
+* Blogs 2+
+  * Blog 2: Learning collisions and the first aim system that I made.
+  * Blog 3: Aiming system v2 (using a series of conditionals).
+  * Blog 4: Aiming system v3
+  * Implementing javascript
+    * Learning how to link variables to the objects (originally thought that I had to use object groups, but you don't need to)
+    * Changing scenes and collisions (other than deleting star and changing a variable) are with javascript.
 
 ## Conclusion
 * 
