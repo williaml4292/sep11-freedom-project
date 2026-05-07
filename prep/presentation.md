@@ -1,7 +1,7 @@
 # Presentation Plan
 
 ## Hook
-* Do you like playing video games? Yes? Well, so do I.
+* Do you like playing video games? Yes? Well, so do I. That's exactly why I made a game in the first place.
 
 ## Product
 Preview link
