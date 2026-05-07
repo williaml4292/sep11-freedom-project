@@ -25,7 +25,7 @@
 - [x] Make it so that the player can shoot again in a shorter time frame.
 - [x] Increase the size of the `Aim` projectile.
 - [x] Instructions on level 1.
-- [ ] Add the background and mid-ground so that it looks more real instead of just being a floating plane in the middle of the sky.
+- [x] Add the background so that it looks more real instead of just being a floating plane in the middle of the sky.
 <!-- EXAMPLE
 
 ## Tool: APIs
