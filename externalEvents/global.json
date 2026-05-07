@@ -127,7 +127,7 @@
             "Ball",
             "Physics2",
             ">",
-            "75"
+            "200"
           ]
         }
       ],
@@ -155,7 +155,7 @@
             "Ball",
             "Physics2",
             "<=",
-            "75"
+            "200"
           ]
         }
       ],
@@ -253,9 +253,9 @@
           "parameters": [
             "Aim",
             "Physics2",
-            "DistanceBetweenPositions(Ball.X()+50, Ball.Y()-20, MouseX(), MouseY())*30",
+            "DistanceBetweenPositions(Ball.X()+50, Ball.Y()-20, MouseX(), MouseY())*35",
             "MouseX()",
-            "MouseY()",
+            "MouseY()-200",
             "MouseX()",
             "MouseY()"
           ]
@@ -265,7 +265,18 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "farGround",
+            "=",
+            "CameraCenterX()/10"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::JsCode",
@@ -290,6 +301,7 @@
         "    sceneNumber = \"3\"\r",
         "    runtimeScene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, sceneNumber)\r",
         "}\r",
+        "// Reset the scene\r",
         "if (player.getY() > 1250){\r",
         "    runtimeScene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, runtimeScene.getName())\r",
         "}"

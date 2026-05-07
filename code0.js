@@ -5,6 +5,10 @@ gdjs._49Code.GDlevelOneTextObjects1= [];
 gdjs._49Code.GDlevelOneTextObjects2= [];
 gdjs._49Code.GDShapePainterObjects1= [];
 gdjs._49Code.GDShapePainterObjects2= [];
+gdjs._49Code.GDInstructionsObjects1= [];
+gdjs._49Code.GDInstructionsObjects2= [];
+gdjs._49Code.GDNewSpriteObjects1= [];
+gdjs._49Code.GDNewSpriteObjects2= [];
 gdjs._49Code.GDBallObjects1= [];
 gdjs._49Code.GDBallObjects2= [];
 gdjs._49Code.GDInvisible_9595ObjectObjects1= [];
@@ -19,12 +23,14 @@ gdjs._49Code.GDStarObjects1= [];
 gdjs._49Code.GDStarObjects2= [];
 gdjs._49Code.GDObstacleObjects1= [];
 gdjs._49Code.GDObstacleObjects2= [];
+gdjs._49Code.GDfarGroundObjects1= [];
+gdjs._49Code.GDfarGroundObjects2= [];
 
 
 gdjs._49Code.mapOfGDgdjs_9546_959549Code_9546GDBallObjects1Objects = Hashtable.newFrom({"Ball": gdjs._49Code.GDBallObjects1});
 gdjs._49Code.mapOfGDgdjs_9546_959549Code_9546GDStarObjects1Objects = Hashtable.newFrom({"Star": gdjs._49Code.GDStarObjects1});
 gdjs._49Code.mapOfGDgdjs_9546_959549Code_9546GDAimObjects1Objects = Hashtable.newFrom({"Aim": gdjs._49Code.GDAimObjects1});
-gdjs._49Code.userFunc0x9a5688 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs._49Code.userFunc0x971f70 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 runtimeScene.setBackgroundColor(135,206,235);
 // Variables and Objects from the scene.
@@ -46,6 +52,7 @@ if (runtimeScene.getName() == "2" && gdjs.RuntimeObject.collisionTest(player,fla
     sceneNumber = "3"
     runtimeScene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, sceneNumber)
 }
+// Reset the scene
 if (player.getY() > 1250){
     runtimeScene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, runtimeScene.getName())
 }
@@ -119,7 +126,7 @@ gdjs.copyArray(runtimeScene.getObjects("Ball"), gdjs._49Code.GDBallObjects1);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs._49Code.GDBallObjects1.length;i<l;++i) {
-    if ( gdjs._49Code.GDBallObjects1[i].getBehavior("Physics2").getLinearVelocityLength() > 75 ) {
+    if ( gdjs._49Code.GDBallObjects1[i].getBehavior("Physics2").getLinearVelocityLength() > 200 ) {
         isConditionTrue_0 = true;
         gdjs._49Code.GDBallObjects1[k] = gdjs._49Code.GDBallObjects1[i];
         ++k;
@@ -141,7 +148,7 @@ gdjs.copyArray(runtimeScene.getObjects("Ball"), gdjs._49Code.GDBallObjects1);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs._49Code.GDBallObjects1.length;i<l;++i) {
-    if ( gdjs._49Code.GDBallObjects1[i].getBehavior("Physics2").getLinearVelocityLength() <= 75 ) {
+    if ( gdjs._49Code.GDBallObjects1[i].getBehavior("Physics2").getLinearVelocityLength() <= 200 ) {
         isConditionTrue_0 = true;
         gdjs._49Code.GDBallObjects1[k] = gdjs._49Code.GDBallObjects1[i];
         ++k;
@@ -195,7 +202,7 @@ gdjs._49Code.GDAimObjects1.length = 0;
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs._49Code.mapOfGDgdjs_9546_959549Code_9546GDAimObjects1Objects, (( gdjs._49Code.GDBallObjects1.length === 0 ) ? 0 :gdjs._49Code.GDBallObjects1[0].getPointX("")) + 50, (( gdjs._49Code.GDBallObjects1.length === 0 ) ? 0 :gdjs._49Code.GDBallObjects1[0].getPointY("")) - 20, "");
 }
 {for(var i = 0, len = gdjs._49Code.GDAimObjects1.length ;i < len;++i) {
-    gdjs._49Code.GDAimObjects1[i].getBehavior("Physics2").applyForceTowardPosition(gdjs.evtTools.common.distanceBetweenPositions((( gdjs._49Code.GDBallObjects1.length === 0 ) ? 0 :gdjs._49Code.GDBallObjects1[0].getPointX("")) + 50, (( gdjs._49Code.GDBallObjects1.length === 0 ) ? 0 :gdjs._49Code.GDBallObjects1[0].getPointY("")) - 20, gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) * 30, gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+    gdjs._49Code.GDAimObjects1[i].getBehavior("Physics2").applyForceTowardPosition(gdjs.evtTools.common.distanceBetweenPositions((( gdjs._49Code.GDBallObjects1.length === 0 ) ? 0 :gdjs._49Code.GDBallObjects1[0].getPointX("")) + 50, (( gdjs._49Code.GDBallObjects1.length === 0 ) ? 0 :gdjs._49Code.GDBallObjects1[0].getPointY("")) - 20, gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) * 35, gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - 200, gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
 }
 }
 }
@@ -208,6 +215,11 @@ gdjs._49Code.GDAimObjects1.length = 0;
 
 let isConditionTrue_0 = false;
 {
+gdjs.copyArray(runtimeScene.getObjects("farGround"), gdjs._49Code.GDfarGroundObjects1);
+{for(var i = 0, len = gdjs._49Code.GDfarGroundObjects1.length ;i < len;++i) {
+    gdjs._49Code.GDfarGroundObjects1[i].setXOffset(gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0) / 10);
+}
+}
 }
 
 }
@@ -231,7 +243,7 @@ objects.push.apply(objects,gdjs._49Code.GDFloorObjects1);
 objects.push.apply(objects,gdjs._49Code.GDAimObjects1);
 objects.push.apply(objects,gdjs._49Code.GDStarObjects1);
 objects.push.apply(objects,gdjs._49Code.GDObstacleObjects1);
-gdjs._49Code.userFunc0x9a5688(runtimeScene, objects);
+gdjs._49Code.userFunc0x971f70(runtimeScene, objects);
 
 }
 
@@ -275,6 +287,10 @@ gdjs._49Code.GDlevelOneTextObjects1.length = 0;
 gdjs._49Code.GDlevelOneTextObjects2.length = 0;
 gdjs._49Code.GDShapePainterObjects1.length = 0;
 gdjs._49Code.GDShapePainterObjects2.length = 0;
+gdjs._49Code.GDInstructionsObjects1.length = 0;
+gdjs._49Code.GDInstructionsObjects2.length = 0;
+gdjs._49Code.GDNewSpriteObjects1.length = 0;
+gdjs._49Code.GDNewSpriteObjects2.length = 0;
 gdjs._49Code.GDBallObjects1.length = 0;
 gdjs._49Code.GDBallObjects2.length = 0;
 gdjs._49Code.GDInvisible_9595ObjectObjects1.length = 0;
@@ -289,12 +305,18 @@ gdjs._49Code.GDStarObjects1.length = 0;
 gdjs._49Code.GDStarObjects2.length = 0;
 gdjs._49Code.GDObstacleObjects1.length = 0;
 gdjs._49Code.GDObstacleObjects2.length = 0;
+gdjs._49Code.GDfarGroundObjects1.length = 0;
+gdjs._49Code.GDfarGroundObjects2.length = 0;
 
 gdjs._49Code.eventsList0(runtimeScene);
 gdjs._49Code.GDlevelOneTextObjects1.length = 0;
 gdjs._49Code.GDlevelOneTextObjects2.length = 0;
 gdjs._49Code.GDShapePainterObjects1.length = 0;
 gdjs._49Code.GDShapePainterObjects2.length = 0;
+gdjs._49Code.GDInstructionsObjects1.length = 0;
+gdjs._49Code.GDInstructionsObjects2.length = 0;
+gdjs._49Code.GDNewSpriteObjects1.length = 0;
+gdjs._49Code.GDNewSpriteObjects2.length = 0;
 gdjs._49Code.GDBallObjects1.length = 0;
 gdjs._49Code.GDBallObjects2.length = 0;
 gdjs._49Code.GDInvisible_9595ObjectObjects1.length = 0;
@@ -309,6 +331,8 @@ gdjs._49Code.GDStarObjects1.length = 0;
 gdjs._49Code.GDStarObjects2.length = 0;
 gdjs._49Code.GDObstacleObjects1.length = 0;
 gdjs._49Code.GDObstacleObjects2.length = 0;
+gdjs._49Code.GDfarGroundObjects1.length = 0;
+gdjs._49Code.GDfarGroundObjects2.length = 0;
 
 
 return;

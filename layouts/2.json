@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.13543314949521507,
+    "zoomFactor": 0.1886928977406471,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -47,13 +47,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 100,
-      "height": 100,
+      "depth": 87.67981438515082,
+      "height": 87.67981438515082,
       "keepRatio": true,
       "layer": "",
       "name": "Floor",
       "persistentUuid": "358079df-eb39-42da-8ac7-826f556f960f",
-      "width": 4982,
+      "width": 3779,
       "x": -31,
       "y": 1001,
       "zOrder": 2,
@@ -81,13 +81,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 600,
+      "height": 700,
       "layer": "",
       "name": "Flag",
       "persistentUuid": "db3e7607-0d6b-4677-86c2-464dc03eb34b",
-      "width": 400,
-      "x": 4693,
-      "y": 421,
+      "width": 500,
+      "x": 3453,
+      "y": 323,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -102,8 +102,8 @@
       "name": "Star",
       "persistentUuid": "7f3681ca-3b14-40c6-a7d5-e238d5136e8c",
       "width": 250,
-      "x": 1677,
-      "y": 697,
+      "x": 1565,
+      "y": 680,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,8 +119,8 @@
       "name": "Obstacle",
       "persistentUuid": "45664813-2b99-4fd5-b342-2e5928dca77b",
       "width": 151,
-      "x": 1516,
-      "y": 615,
+      "x": 1385,
+      "y": 619,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -136,8 +136,8 @@
       "name": "Obstacle",
       "persistentUuid": "e1785d84-4808-4d86-ad98-d16b5656d967",
       "width": 616,
-      "x": 1487,
-      "y": 509,
+      "x": 1383,
+      "y": 508,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -153,8 +153,8 @@
       "name": "Obstacle",
       "persistentUuid": "4c3f0607-7d48-4f6e-9ce0-1853522fb8e9",
       "width": 167,
-      "x": 1956,
-      "y": 526,
+      "x": 1862,
+      "y": 540,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -170,8 +170,8 @@
       "name": "Obstacle",
       "persistentUuid": "014e7512-6956-412c-a1e3-fa9fc3e6ba28",
       "width": 585,
-      "x": 2818,
-      "y": 752,
+      "x": 2290,
+      "y": 743,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -187,8 +187,8 @@
       "name": "Obstacle",
       "persistentUuid": "6b653499-ef92-4e54-873d-ed4a2aa0aa72",
       "width": 440,
-      "x": 2816,
-      "y": 559,
+      "x": 2348,
+      "y": 565,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -206,6 +206,22 @@
       "x": 150,
       "y": 350,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "farGround",
+      "persistentUuid": "e6dd33b2-bacc-465f-99e1-bbc0d708886b",
+      "width": 0,
+      "x": -35,
+      "y": -6,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -229,9 +245,9 @@
       "textAlignment": "left",
       "characterSize": 128,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 50,
+        "g": 50,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -253,7 +269,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 128,
         "lineHeight": 0,
-        "color": "0;0;0"
+        "color": "255;50;50"
       }
     }
   ],
@@ -280,6 +296,60 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

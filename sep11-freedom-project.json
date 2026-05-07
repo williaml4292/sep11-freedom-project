@@ -22,8 +22,8 @@
     "name": "SEP 11 Freedom Project - Copy",
     "description": "",
     "author": "",
-    "windowWidth": 5000,
-    "windowHeight": 1080,
+    "windowWidth": 1968,
+    "windowHeight": 975,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -148,6 +148,74 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/waterFall.jpeg.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "waterFall.jpeg",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/4030ee9a-fd6e-4138-bb50-2f896dd21306/resources/08fa71207e2f15bdc6310ad284a12a077b6f33f862039026348339cb11fda41e-waterFall.jpeg",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/waterFall.jpeg2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "waterFall.jpeg2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/waterFall.jpeg3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "waterFall.jpeg3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/waterFall.jpeg4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "waterFall.jpeg4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/waterFall.jpeg5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "waterFall.jpeg5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/waterFall.jpeg6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "waterFall.jpeg6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/waterFall.jpeg7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "waterFall.jpeg7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/waterFall.jpeg8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "waterFall.jpeg8",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -205,7 +273,7 @@
           "UpwardSpeed": 0.9,
           "DownwardSpeed": 0.9,
           "FollowOnX": true,
-          "FollowOnY": true,
+          "FollowOnY": false,
           "FollowFreeAreaLeft": 0,
           "FollowFreeAreaRight": 0,
           "FollowFreeAreaTop": 0,
@@ -541,11 +609,11 @@
           "polygonOrigin": "Center",
           "vertices": [],
           "density": 1,
-          "friction": 0.4,
+          "friction": 0.8,
           "restitution": 0.4,
           "linearDamping": 0.5,
           "angularDamping": 0.5,
-          "gravityScale": 95,
+          "gravityScale": 125,
           "layers": 0,
           "masks": 0
         }
@@ -578,20 +646,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 23
+                        "x": 18,
+                        "y": 18
                       },
                       {
-                        "x": 35,
-                        "y": 23
+                        "x": 43,
+                        "y": 18
                       },
                       {
-                        "x": 35,
-                        "y": 33
+                        "x": 43,
+                        "y": 43
                       },
                       {
-                        "x": 24,
-                        "y": 33
+                        "x": 18,
+                        "y": 43
                       }
                     ]
                   ]
@@ -738,6 +806,18 @@
         "isCastingShadow": true,
         "isReceivingShadow": true
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 1128,
+      "name": "farGround",
+      "persistentUuid": "5c31fc81-c1c1-4526-a9dc-53a00f2e569a",
+      "texture": "waterFall.jpeg8",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 2500,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -763,6 +843,9 @@
       },
       {
         "objectName": "Obstacle"
+      },
+      {
+        "objectName": "farGround"
       }
     ]
   },
