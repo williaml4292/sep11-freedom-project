@@ -1,7 +1,7 @@
 # Presentation Plan
 
 ## Hook
-* If you've ever played video games, you would know that feeling—no matter what you do, nothing seems to work out, even if you believe that you did everything near perfectly.
+* If you've ever played video games, you know that feeling—no matter what you do, nothing seems to work out, even if you believe that you did everything near perfectly.
 * In my game, there is no luck; doing everything exactly the same will net the same outcome and you can always adjust until everything lines up.
 
 ## Product
