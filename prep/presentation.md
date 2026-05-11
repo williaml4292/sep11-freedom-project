@@ -1,7 +1,8 @@
 # Presentation Plan
 
 ## Hook
-* Do you like playing video games? Yes? Well, so do I. That's exactly why I made a game in the first place.
+* If you've ever played video games, you would know that feeling—no matter what you do, nothing seems to work out, even if you believe that you did everything near perfectly.
+* In my game, there is no luck; doing everything exactly the same will net the same outcome and you can always adjust until everything lines up.
 
 ## Product
 Preview link
