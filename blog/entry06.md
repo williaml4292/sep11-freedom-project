@@ -1,7 +1,23 @@
 # Entry 6
-##### X/X/XX
+##### 5/20/26
 
-Text
+### Takeaways from Expo elevator pitch:  
+* 1
+* 2
+* 3
+  
+### Takeaways from in-class presentation:  
+* 1
+* 2
+* 3
+  
+### EDP
+
+### Skills
+
+####
+
+####
 
 [Previous](entry05.md) | [Next](entry07.md)
 
