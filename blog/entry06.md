@@ -21,6 +21,6 @@
 
 ####
 
-[Previous](entry05.md) | [Next](entry07.md)
+[Previous](entry05.md)
 
 [Home](../README.md)
