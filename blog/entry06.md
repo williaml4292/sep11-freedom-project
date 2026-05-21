@@ -12,6 +12,8 @@
 * It's alright to **improvise** instead of **memorizing** a script that you may not even remember when presentations begin.
   * > As long as you know what you're talking about.
 * Slides that contain nothing but the _general gist_ of what you're going to be talking about are fine, provided that you're **saying** all of your ideas out loud.
+* If you've memorized a script, slow down.
+  * If you know what to say, you end up talking much faster since there's no need to think.
   
 ### EDP
 
