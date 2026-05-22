@@ -4,7 +4,8 @@ Product:
 Play and explain what the game is.
 
 Process:  
-I used gDevelop to make my game. Essentially, it's a tool for people who don't know how to code, so coding is optional.  
+I used gDevelop to make my game.  
+Essentially, it's a tool for people who don't know how to code, so coding is optional.  
 It backfired a lot since well, my final product has very few lines of code.  
 Explain slide 14.  
 Takeaways  
