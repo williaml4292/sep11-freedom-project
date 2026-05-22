@@ -10,7 +10,7 @@ It backfired a lot since well, my final product has very few lines of code.
 Briefly explain the change from the sequence of conditionals to a single one + slide 14.  
 Takeaways  
 
-So any questions?  
+Thank you
 
 Additional:  
 Skip slides (lmb + rmb, skip slide, turn it off later.)
