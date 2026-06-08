@@ -4,7 +4,7 @@ by **William Li**
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for SEP11 is a year-long project all about making something using JavaScript along with a third-party JS tool.
 
-For my project, I chose to independently study **gDevelop** in order to help me make **a game**.
+For my project, I chose to independently study gDevelop in order to help me make a game where you use your mouse to aim and get to the end of each level.
 
 ## Links
 
