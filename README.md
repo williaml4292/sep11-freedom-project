@@ -28,8 +28,14 @@ For my project, I chose to independently study gDevelop in order to help me make
 Below you will find my blog about how I made my project.
 
 * [Entry 1](blog/entry01.md)
+  * Picking a tool and tinkering with it.
 * [Entry 2](blog/entry02.md)
+  * Simple movement system.
 * [Entry 3](blog/entry03.md)
+  * Movement system v2.
 * [Entry 4](blog/entry04.md)
+  * Adding textures, scene changes, external event sheet.
 * [Entry 5](blog/entry05.md)
+  * Adding javascript (converting from code blocks to javascript).
 * [Entry 6](blog/entry06.md)
+  * In-class presentation and expo elevator pitch.
