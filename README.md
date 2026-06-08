@@ -14,9 +14,14 @@ For my project, I chose to independently study gDevelop in order to help me make
 
 ## Implications
 ##### PROS
-* 
+* **[Social | Individual]** Games are fun and can **entertain** people well.
+* **[Social | Individual]** Can more easily find the **pattern** of things and make **inferences based on previous observations**.
+* **[Economic | Jobs]** More people may want to become _video game developers_ after noticing how easy it is to make simple games.
 ##### CONS
-* 
+* **[Global | Big systems]** Games can damage the educational system given that people _play video games during classes_.
+* **[Global | Environment]** Playing video games all day does not facilitate a healthy environment.
+* **[Social | Individual]** Games can cause addiction.
+* **[Social | Relationships]** Playing games can stop people from _engaging in and finding healthy relationships_.
 
 
 ## Blog
